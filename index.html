@@ -23,8 +23,10 @@
           <a href="#Bottom">
             <div class="nav-bar-text-3">CONTACT</div>
           </a>
-        </div>
-        <div class="cart" onclick="toggleCart()">
+        </div>        
+          <a href="#Cart"> <div id="redCircleBanner" class="red-circle-banner">0</div></a>
+
+        <div id="Cart" class="cart" onclick="toggleCart()">
           <div class="nav-bar-text-4">CART</div>
           <img class="shopping-cart" src="https://c.animaapp.com/5Y1VjJco/img/shopping-cart@2x.png" />
         </div>
@@ -93,19 +95,19 @@
       <div>
         <div class="product add-to-cart-1">
           <div class="white-box-cart"></div>
-          <div class="add-to-cart" onclick="addToCart('Product 1', 19.99)">
+          <div class="add-to-cart" onclick="addToCart('Heart Glowbuds', 19.99)">
             ADD TO CART<span class="cash"> €19.99</span>
           </div>
         </div>
         <div class="product add-to-cart-2">
           <div class="white-box-cart"></div>
-          <div class="add-to-cart" onclick="addToCart('Product ', 19.99)">
+          <div class="add-to-cart" onclick="addToCart('Smiley Glowbuds ', 19.99)">
             ADD TO CART<span class="cash"> €19.99</span>
           </div>
         </div>
         <div class="product add-to-cart-3">
           <div class="white-box-cart"></div>
-          <div class="add-to-cart" onclick="addToCart('Product 1', 19.99)">
+          <div class="add-to-cart" onclick="addToCart('Skull Glowbuds', 19.99)">
             ADD TO CART<span class="cash"> €19.99</span>
           </div>
         </div>
@@ -115,7 +117,7 @@
      
       
       <div class="cart-container" id="cartContainer">
-        <div id="totalPrice">Total: €0.00</div>
+        <div class="total-price" id="totalPrice">Total: €0.00</div>
         <button class="exit-button" onclick="toggleCart()">X</button  >    </div>
     </div>
     </div>
@@ -220,8 +222,7 @@
   <a href="#Top"><div class="arrow"><img class="arrow-2" src="https://c.animaapp.com/5Y1VjJco/img/arrow-1.svg" /></div></a>
 </div>
   </div>
-<script>
- 
+ <script>
   // Function to add a product to the cart
   function addToCart(productName, price) {
     // Create a new cart item element
@@ -237,10 +238,53 @@
     const cartContainer = document.getElementById('cartContainer');
     cartContainer.appendChild(cartItem);
 
+    // Update total price and cart display
+    updateCartDisplay();
+
+    // Save cart data to a cookie
+    saveCartData();
+  }
+
+  // Function to update the total price and cart display
+  function updateCartDisplay() {
     // Update total price
     updateTotalPrice();
 
-    // Save cart data to a cookie
+    // Slide down the cart container
+    const cartContainer = document.getElementById('cartContainer');
+    cartContainer.classList.add('show-cart');
+
+    // Update the red circle banner
+    updateRedCircleBanner();
+  }
+
+  // Function to update the red circle banner
+  function updateRedCircleBanner() {
+    const cartItems = document.getElementsByClassName('cart-item');
+    const redCircleBanner = document.getElementById('redCircleBanner');
+    redCircleBanner.textContent = cartItems.length;
+  }
+
+  // Function to toggle the visibility of the cart
+  function toggleCart() {
+    const cartContainer = document.getElementById('cartContainer');
+    cartContainer.classList.toggle('show-cart');
+
+    // Update the red circle banner when hiding the cart
+    if (!cartContainer.classList.contains('show-cart')) {
+      updateRedCircleBanner();
+    }
+  }
+
+  // Function to delete a cart item
+  function deleteCartItem(button) {
+    const cartItem = button.closest('.cart-item');
+    cartItem.remove();
+
+    // Update total price and cart display after deletion
+    updateCartDisplay();
+
+    // Save cart data to a cookie after deletion
     saveCartData();
   }
 
@@ -259,24 +303,6 @@
     // Display the total price
     const totalElement = document.getElementById('totalPrice');
     totalElement.textContent = `Total: €${totalPrice.toFixed(2)}`;
-  }
-
-  // Function to toggle the visibility of the cart
-  function toggleCart() {
-    const cartContainer = document.getElementById('cartContainer');
-    cartContainer.classList.toggle('show-cart');
-  }
-
-  // Function to delete a cart item
-  function deleteCartItem(button) {
-    const cartItem = button.closest('.cart-item');
-    cartItem.remove();
-
-    // Update total price after deletion
-    updateTotalPrice();
-
-    // Save cart data to a cookie after deletion
-    saveCartData();
   }
 
   // Function to save cart data to a cookie

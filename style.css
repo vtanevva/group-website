@@ -778,9 +778,66 @@
     padding: 20px;
     overflow-y: auto;
   }
+  .total-price {
   
+  text-decoration: underline;
+  margin-bottom: 2vh;
+
+  }
+  .cart-container .cart-items {
+    max-height: 100px; /* Set a maximum height for the cart items */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+  }
+  .delete-button {
+    margin-left: 2vh;
+    background-color: rgb(248, 13, 169);
+    color: white;
+    opacity: 0.6;
+  }
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #cartContainer {
+    height: 70%;
+opacity:0.95;  
+
+}
+
+  .product-info {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+  
+    
+  }
+  
+  .product-name,
+  .product-price {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .delete-button {
+    margin-left: auto;
+    width: 8vh;
+    letter-spacing: 0.15vh;
+    padding-top: 0.3vh;
+    padding-bottom: 0.3vh;
+  }
+  
+  .exit-button {
+    position: absolute;
+    left: 35vh;
+    top: 2.5vh;
+    background-color: transparent;
+    border: none;
+    
+  }
   .show-cart {
     display: block;
+    z-index: 5;
   }
   
   .cart-item {
@@ -839,7 +896,6 @@
   
   .cart:hover {
     animation: shake 0.5s ease-in-out;
-    animation-iteration-count: 1;
   }
   
   @keyframes shake {
@@ -902,7 +958,7 @@
     width: 200px;
     height: 50px;
     border-radius: 25px;
-    border: 3px solid white;
+    border: 4px solid white;
     padding-top: 5%;
     padding-left: 7%;
     background-color: #000000;
@@ -912,6 +968,26 @@
   .our-products-button:hover {
     transform: translate(5px, -5px); /* Adjust the values as needed */
   }
+  .red-circle-banner {
+    position: fixed;
+    right: 13vh;
+    top: 4vh;
+    background-color: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+
+  
   
    .ENJOY-TO-THE-MAX-wrapper {
     position: absolute;
