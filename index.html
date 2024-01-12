@@ -24,7 +24,7 @@
             <div class="nav-bar-text-3">CONTACT</div>
           </a>
         </div>
-        <div class="cart">
+        <div class="cart" onclick="toggleCart()">
           <div class="nav-bar-text-4">CART</div>
           <img class="shopping-cart" src="https://c.animaapp.com/5Y1VjJco/img/shopping-cart@2x.png" />
         </div>
@@ -90,24 +90,32 @@
       <div class="product-title-3">Skull Glowbuds</div>
     </div>
     <div>
-      <div class="add-to-cart-1">
-        <div class="white-box-cart"></div>
-        <div class="add-to-cart">
-          ADD TO CART<span class="cash"> €19.99</span>
+      <div>
+        <div class="product add-to-cart-1">
+          <div class="white-box-cart"></div>
+          <div class="add-to-cart" onclick="addToCart('Product 1', 19.99)">
+            ADD TO CART<span class="cash"> €19.99</span>
+          </div>
+        </div>
+        <div class="product add-to-cart-2">
+          <div class="white-box-cart"></div>
+          <div class="add-to-cart" onclick="addToCart('Product 1', 19.99)">
+            ADD TO CART<span class="cash"> €19.99</span>
+          </div>
+        </div>
+        <div class="product add-to-cart-3">
+          <div class="white-box-cart"></div>
+          <div class="add-to-cart" onclick="addToCart('Product 1', 19.99)">
+            ADD TO CART<span class="cash"> €19.99</span>
+          </div>
         </div>
       </div>
-      <div class="add-to-cart-2">
-        <div class="white-box-cart"></div>
-        <div class="add-to-cart">
-          ADD TO CART<span class="cash"> €19.99</span>
-        </div>
-      </div>
-      <div class="add-to-cart-3">
-        <div class="white-box-cart"></div>
-        <div class="add-to-cart">
-          ADD TO CART<span class="cash"> €19.99</span>
-        </div>
-      </div>
+      
+     
+      
+      <div class="cart-container" id="cartContainer">
+        <button class="exit-button" onclick="toggleCart()">X</button      </div>
+    </div>
     </div>
   </section>
   <img class="effects-curl" src="https://c.animaapp.com/5Y1VjJco/img/vector-3.svg" />
@@ -210,7 +218,76 @@
   <a href="#Top"><div class="arrow"><img class="arrow-2" src="https://c.animaapp.com/5Y1VjJco/img/arrow-1.svg" /></div></a>
 </div>
   </div>
+<script>
+  // Function to add a product to the cart
+  function addToCart(productName, price) {
+    // Create a new cart item element
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('cart-item');
+    cartItem.innerHTML = `
+      <span class="product-name">${productName}</span>
+      <span class="product-price">€${price.toFixed(2)}</span>
+      <button class="delete-button" onclick="deleteCartItem(this)">Delete</button>
+    `;
 
+    // Append the cart item to the cart container
+    const cartContainer = document.getElementById('cartContainer');
+    cartContainer.appendChild(cartItem);
+
+    // Save cart data to a cookie
+    saveCartData();
+  }
+
+  // Function to toggle the visibility of the cart
+  function toggleCart() {
+    const cartContainer = document.getElementById('cartContainer');
+    cartContainer.classList.toggle('show-cart');
+  }
+
+  // Function to delete a cart item
+  function deleteCartItem(button) {
+    const cartItem = button.closest('.cart-item');
+    cartItem.remove();
+
+    // Save cart data to a cookie after deletion
+    saveCartData();
+  }
+
+  // Function to save cart data to a cookie
+  function saveCartData() {
+    const cartContainer = document.getElementById('cartContainer');
+    const cartItems = cartContainer.getElementsByClassName('cart-item');
+
+    // Extract product names from cart items
+    const productNames = Array.from(cartItems).map(item => item.querySelector('.product-name').textContent);
+
+    // Save product names to a cookie
+    document.cookie = `cart=${JSON.stringify(productNames)}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/`;
+  }
+
+  // Function to load cart data from a cookie
+  function loadCartData() {
+    const cookieValue = document.cookie.replace(/(?:(?:^|.*;\s*)cart\s*=\s*([^;]*).*$)|^.*$/, "$1");
+    if (cookieValue) {
+      const cartContainer = document.getElementById('cartContainer');
+      const productNames = JSON.parse(cookieValue);
+
+      // Create cart items based on saved product names
+      productNames.forEach(productName => {
+        const cartItem = document.createElement('div');
+        cartItem.classList.add('cart-item');
+        cartItem.innerHTML = `
+          <span class="product-name">${productName}</span>
+          <button class="delete-button" onclick="deleteCartItem(this)">Delete</button>
+        `;
+        cartContainer.appendChild(cartItem);
+      });
+    }
+  }
+
+  // Load cart data when the page loads
+  loadCartData();
+</script>
 </body>
 
 </html>
