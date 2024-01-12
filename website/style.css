@@ -1,0 +1,2015 @@
+ .main {
+    background-color: #06000f;
+   
+  
+  }
+  body {
+    background-color: #06000f;
+    overflow-x: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+ 
+  
+   .overlay {
+    position: absolute;
+    width: 2526px;
+    height: 5614px;
+    top: -30px;
+    left: -490px;
+    background-color: #06000f;
+    margin-left: -30px;
+  }
+  
+   .group {
+    position: absolute;
+    width: 711px;
+    height: 727px;
+    top: 0;
+    left: 1284px;
+  }
+  
+   .img {
+    position: absolute;
+    width: 731px;
+    height: 1335px;
+    top: 141px;
+    left: 515px;
+  }
+  
+   .waves {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top: 355px;
+    background-image: url('photos/83nea54g.png');
+  }
+  
+   .logo-text {
+    position: absolute;
+    width: 458px;
+    height: 239px;
+    top: 160vh;
+    left: 36%;
+  }
+  
+ 
+  
+   .cyrcleche {
+    position: absolute;
+    width: 183px;
+    height: 183px;
+    top: 0;
+    left: 136px;
+    border-radius: 91.5px;
+    border: 7px solid;
+    border-color: #ffffff;
+  }
+  
+   .logo-box {
+    position: absolute;
+    width: 246px;
+    height: 211px;
+    top: 1px;
+    left: 105px;
+  }
+  
+   .text-box {
+    position: absolute;
+    width: 456px;
+    top: 209px;
+    left: 0;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+   .line-logo {
+    position: relative;
+    width: 36px;
+    height: 5px;
+    top: 95px;
+    left: 384px;
+    background-color: #ffffff;
+  }
+    .line-logo-left {
+    position: absolute;
+    width: 36px;
+    height: 5px;
+    top: 95px;
+    left: 43px;
+    background-color: #ffffff;
+  }
+  
+   .overlay-wrapper {
+    position: absolute;
+    width: 2626px;
+    height: 1244px;
+    top: 4115px;
+    left: 0;
+  }
+  
+   .overlay-2 {
+    position: relative;
+    width: 1440px;
+    height: 1338px;
+    left: 535px;
+  }
+  
+   .lights-section-5 {
+    position: absolute;
+    width: 531px;
+    height: 1258px;
+    top: 0;
+    left: 939px;
+  }
+  
+   .lights-section-5-left {
+    position: absolute;
+    width: 672px;
+    height: 1335px;
+    top: 3px;
+    left: -30px;
+  }
+  
+   .awarness {
+    position: absolute;
+    width: 1289px;
+    height: 604px;
+    top: 219px;
+    left: 102px;
+  }
+  
+   .overlay-group-wrapper {
+    position: absolute;
+    width: 453px;
+    height: 604px;
+    top: 0;
+    left: 0;
+  }
+  
+   .overlay-group-3 {
+    position: relative;
+    height: 604px;
+  }
+  
+   .box-3 {
+    position: absolute;
+    width: 267px;
+    height: 57px;
+    top: 547px;
+    left: 0;
+    background-color: #3b9fff;
+    border-radius: 66px;
+    box-shadow: 5px 4px 21.1px #00000040;
+  }
+  
+   .box-4 {
+    position: absolute;
+    width: 267px;
+    height: 57px;
+    top: 0;
+    left: 186px;
+    background-color: #ce12af;
+    border-radius: 66px;
+    box-shadow: 8px 4px 19.3px #00000040;
+  }
+  
+   .image {
+    position: absolute;
+    width: 373px;
+    height: 547px;
+    top: 29px;
+    left: 29px;
+    object-fit: cover;
+  }
+  
+   .overlay-3 {
+    position: absolute;
+    width: 637px;
+    height: 202px;
+    top: 29px;
+    left: 623px;
+  }
+  
+   .text-box-2 {
+    position: absolute;
+    width: 637px;
+    top: 0;
+    left: 0;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 42px;
+    letter-spacing: 7.56px;
+    line-height: 36px;
+  }
+  
+   .yeah-you-ve-heard {
+    position: absolute;
+    width: 605px;
+    top: 84px;
+    left: 0;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 38px;
+    letter-spacing: 2.66px;
+    line-height: 38px;
+  }
+  
+   .p {
+    position: absolute;
+    width: 672px;
+    top: 324px;
+    left: 611px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 38px;
+    letter-spacing: 2.66px;
+    line-height: 38px;
+  }
+  
+   .vector {
+    position: absolute;
+    width: 51px;
+    height: 44px;
+    top: 28px;
+    left: 541px;
+  }
+  
+   .div-wrapper {
+    position: absolute;
+    width: 637px;
+    height: 72px;
+    top: 475px;
+    left: 603px;
+  }
+  
+   .overlay-4 {
+    position: relative;
+    width: 635px;
+    height: 72px;
+    background-color: #00000061;
+    border-radius: 66px;
+    border: 4px solid;
+    border-color: #ff7000bd;
+  }
+  
+   .text-box-3 {
+    position: absolute;
+    top: 20px;
+    left: 165px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 6.72px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+   .features {
+   
+    
+  }
+  .specifics-info {
+    position: absolute;
+    top: -55vh;
+  }
+  
+   .effects-curl {
+    position: absolute;
+    width: 100%;
+    left: 10px;
+    top: 345vh;
+
+  }
+  .specifics {
+    position: absolute;
+
+    top: 410vh;
+  }
+  .specifics-info {
+
+  }
+
+   .specifics-group {
+    position: absolute;
+    top: 100vh;
+  }
+  
+   .purple-effects-line {
+    position: absolute;
+    width: 1440px;
+    height: 763px;
+    top: 430px;
+    left: 0;
+  }
+  
+   
+  
+   .specifics-effects {
+    position: relative;
+    top: -102px;
+    left: 7vh;
+  }
+  
+   .shine-lines {
+    position: absolute;
+    width: 1210px;
+    height: 580px;
+    top: 98px;
+    left: 106px;
+  }
+  
+   .shine {
+    position: absolute;
+    width: 1417px;
+    height: 792px;
+    top: 0;
+    left: 0;
+  }
+  
+   .specifics-title-1 {
+    position: absolute;
+    width: 217px;
+    top: 172px;
+    left: 1112px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+   .specifics-title-2 {
+    position: absolute;
+    width: 212px;
+    top: 592px;
+    left: 1099px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+   .specifics-title-3 {
+    position: absolute;
+    width: 212px;
+    top: 605px;
+    left: 178px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+   .specifics-title-4 {
+    position: absolute;
+    width: 212px;
+    top: 117px;
+    left: 124px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+   .feedback {
+    position: absolute;
+    width: 1236px;
+    height: 467px;
+    top: 5147px;
+    left: 631px;
+  }
+  
+   .overlay-6 {
+    position: absolute;
+    width: 480px;
+    height: 455px;
+    top: 14px;
+    left: 0;
+  }
+  
+   .we-need-your {
+    position: absolute;
+    top: 103px;
+    left: 0;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 67px;
+    letter-spacing: 0;
+    line-height: 124.4px;
+  }
+  
+   .vector-6 {
+    position: absolute;
+    width: 433px;
+    height: 455px;
+    top: 0;
+    left: 47px;
+  }
+  
+   .overlay-7 {
+    position: absolute;
+    width: 633px;
+    height: 435px;
+    top: 0;
+    left: 609px;
+  }
+  
+   .group-6 {
+    position: absolute;
+    width: 633px;
+    height: 415px;
+    top: 0;
+    left: 0;
+  }
+  
+   .overlay-8 {
+    position: absolute;
+    width: 625px;
+    height: 45px;
+    top: 0;
+    left: 0;
+  }
+  
+   .line {
+    position: absolute;
+    width: 624px;
+    height: 3px;
+    top: 42px;
+    left: 1px;
+  }
+  
+   .text-box-8 {
+    position: absolute;
+    width: 140px;
+    top: 0;
+    left: 0;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: 42.7px;
+    white-space: nowrap;
+  }
+  
+   .overlay-group-5 {
+    position: absolute;
+    width: 624px;
+    height: 45px;
+    top: 102px;
+    left: 1px;
+  }
+  
+   .line-2 {
+    position: absolute;
+    width: 624px;
+    height: 3px;
+    top: 42px;
+    left: 0;
+  }
+  
+   .line-3 {
+    position: absolute;
+    width: 624px;
+    height: 3px;
+    top: 319px;
+    left: 1px;
+  }
+  
+   .text-box-9 {
+    width: 227px;
+    top: 204px;
+    left: 0;
+    font-size: 23px;
+    line-height: 42.7px;
+    position: absolute;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+   .text-box-10 {
+    width: 308px;
+    top: 370px;
+    left: 193px;
+    font-size: 28px;
+    line-height: 52px;
+    position: absolute;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+   .box-5 {
+    position: absolute;
+    width: 624px;
+    height: 84px;
+    top: 351px;
+    left: 1px;
+    border-radius: 7px;
+    border: 4px solid;
+    border-color: #ffffff;
+  }
+  
+   .products {
+    position: absolute;
+    width: 93%;
+    top: 240vh;
+    left: 3%;
+  }
+  
+  
+  
+
+  
+
+   .group-7 {
+    position: absolute;
+    width: 299px;
+    height: 288px;
+    top: 0;
+    left: 1083px;
+  }
+  
+   .group-8 {
+    position: absolute;
+    width: 289px;
+    height: 280px;
+    top: 456px;
+    left: 0;
+  }
+  
+   .box-6 {
+    position: absolute;
+    width: 1150px;
+    height: 534px;
+    top: 102px;
+    left: 116px;
+    background-color: #f5ecff12;
+    border-radius: 22px;
+    box-shadow: 14px 10px 20.7px #000000ab;
+    backdrop-filter: blur(12.5px) brightness(100%);
+    -webkit-backdrop-filter: blur(12.5px) brightness(100%);
+  }
+  
+  .products-each {
+    display: grid;
+  }
+   .products-heart {
+    position: absolute;
+    width: 323px;
+    height: 438px;
+    top: 114px;
+    left: 243px;
+    object-fit: cover;
+  }
+  
+   .products-smiley {
+    position: absolute;
+    width: 317px;
+    height: 438px;
+    top: 114px;
+    left: 562px;
+  }
+  
+   .products-skull {
+    position: absolute;
+    width: 319px;
+    height: 438px;
+    top: 114px;
+    left: 856px;
+  }
+  
+  .lines-1 {
+    position: absolute;
+    width: 61px;
+    height: 21px;
+    top: 528px;
+    left: 264px;
+  }
+  
+   .line-1 {
+    position: absolute;
+    width: 16px;
+    height: 22px;
+    top: 1px;
+    left: 1px;
+  }
+  
+   .line-2 {
+    position: absolute;
+    width: 16px;
+    height: 22px;
+    top: 1px;
+    left: 18px;
+  }
+  
+   .line-3 {
+    position: absolute;
+    width: 16px;
+    height: 22px;
+    top: 1px;
+    left: 34px;
+  }
+  
+   .line-4 {
+    position: absolute;
+    width: 16px;
+    height: 22px;
+    top: 1px;
+    left: 51px;
+  }
+  
+   .lines-2 {
+    position: absolute;
+    width: 61px;
+    height: 21px;
+    top: 528px;
+    left: 579px;
+  }
+  
+   .lines-3 {
+    position: absolute;
+    width: 61px;
+    height: 21px;
+    top: 528px;
+    left: 886px;
+  }
+  
+   .product-title-1 {
+    position: absolute;
+    width: 233px;
+    top: 559px;
+    left: 261px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 29px;
+    letter-spacing: 0;
+    line-height: 24.8px;
+  }
+  
+   .product-title-2 {
+    position: absolute;
+    width: 233px;
+    top: 559px;
+    left: 576px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 29px;
+    letter-spacing: 0;
+    line-height: 24.8px;
+  }
+  
+   .product-title-3 {
+    position: absolute;
+    width: 233px;
+    top: 559px;
+    left: 888px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 29px;
+    letter-spacing: 0;
+    line-height: 24.8px;
+  }
+  
+   .add-to-cart-3 {
+    position: absolute;
+    top: 65vh;
+    left: 64.5%;
+  }
+  
+   .overlay-group-6 {
+    position: relative;
+    width: 245px;
+    height: 34px;
+  }
+  
+   .white-box-cart {
+    width: 240px;
+    height: 33px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+  }
+  
+   .add-to-cart {
+    position: absolute;
+    width: 241px;
+    top: 4px;
+    left: 4px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: -1.52px;
+    line-height: 25.8px;
+    white-space: nowrap;
+  }
+  
+  
+  .our-products-title {
+     position: relative;
+    left: 124px;
+  }
+   .our-products-title-2 {
+ position: relative;
+ left: 7%;
+ top: -1vh;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: "Ubuntu", Helvetica;
+    color: #ffffff;
+  }
+  .cash {
+    margin-left: 22%;
+  }
+   .our-products-title-dot {
+    position: absolute;
+    width: 32px;
+    height: 27px;
+    top: 7px;
+  }
+  
+   .add-to-cart-1 {
+    position: absolute;
+    top: 65vh;
+    left: 20%;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:43px;
+    left: 37%;
+  }
+  .nav-bar-links {
+    display: flex;
+    position: relative;
+    top: 11.5%;
+  }
+  .nav-bar-text-1,.nav-bar-text-2,.nav-bar-text-3 {
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+    margin-right: 30px
+  }
+  .header {
+    display: flex;
+
+  }
+
+
+   .nav-bar .nav-bar-text-1:hover,   .nav-bar .nav-bar-text-2:hover,   .nav-bar .nav-bar-text-3:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  }
+  
+   .add-to-cart-2 {
+    position: absolute;
+    top: 65vh;
+    left: 43%;
+  }
+  
+   .specifications-img {
+    width: 400px;
+    position: absolute;
+    top: 100vh;
+    left: 73vh;
+  }
+  
+
+   .line-8 {
+    position: absolute;
+    width: 114px;
+    height: 3px;
+    top: 54px;
+    left: 0;
+  }
+  
+   .group-17 {
+    position: absolute;
+    width: 191px;
+    height: 78px;
+    top: 0;
+    left: 499px;
+  }
+  
+   .cart {
+    position: relative;
+    width: 189px;
+    height: 78px;
+    border-radius: 33px;
+    border: 3px solid;
+    border-color: #ffffff;
+  }
+  
+   .nav-bar-text-4 {
+    position: absolute;
+    top: 23px;
+    left: 92px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+   .shopping-cart {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 19px;
+    left: 30px;
+  }
+  
+   .title {
+    position: absolute;
+    width: 400px;
+    top: 27vh;
+    left: 13%;
+  }
+  
+   .button-1 {
+    position: absolute;
+    width: 200px;
+    height: 79px;
+    top: 333px;
+    left: 0;
+  }
+  
+ 
+  
+  
+   .our-products-button {
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 22px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 3px solid white;
+    padding-top: 5%;
+    padding-left: 7%;
+  }
+  
+   .ENJOY-TO-THE-MAX-wrapper {
+    position: absolute;
+    width: 406px;
+    height: 387px;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  
+   .span {
+    color: #e017c0de;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 700;
+    font-size: 101px;
+    line-height: 101px;
+
+  }
+  
+  .white-text {
+    color: white;
+  }
+   .text-box-21 {
+    color: #ffffff;
+    font-size: 76px;
+    line-height: 65.1px;
+  }
+  
+   .text-box-22 {
+    color: #e017c0;
+    font-size: 76px;
+    line-height: 65.1px;
+  }
+  
+   .group-19 {
+    
+    width: 753px;
+    height: 94px;
+    top: 2769px;
+    left: 870px;
+  }
+  
+   .overlay-14 {
+    position: relative;
+    width: 751px;
+    height: 94px;
+  }
+  
+   .box-12 {
+    position: absolute;
+    width: 222px;
+    height: 47px;
+    top: 47px;
+    left: 0;
+    background-color: #3b9fff80;
+    border-radius: 66px;
+    box-shadow: 0px 4px 4px #00000040;
+    filter: blur(3.4px);
+  }
+  
+   .box-13 {
+    position: absolute;
+    width: 222px;
+    height: 47px;
+    top: 0;
+    left: 529px;
+    background-color: #ce12af80;
+    border-radius: 66px;
+    box-shadow: 0px 4px 4px #00000040;
+    filter: blur(3.4px);
+  }
+  
+   .specifics-title {
+    position: absolute;
+    top: 20px;
+    left: 60vh;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    color: #ebebeb;
+    font-size: 63px;
+    white-space: nowrap;
+  }
+  
+   .footer {
+    position: absolute;
+    width: 1452px;
+    height: 590px;
+    top: 5855px;
+    left: 0;
+    background-color: transparent;
+  }
+  
+   .overlay-15 {
+    position: relative;
+    width: 1440px;
+    height: 590px;
+    background-color: #0e001c;
+  }
+  
+   .overlay-16 {
+    position: absolute;
+    width: 453px;
+    height: 425px;
+    top: 36px;
+    left: 0;
+  }
+  
+   .group-20 {
+    position: absolute;
+    width: 231px;
+    height: 205px;
+    top: 0;
+    left: 0;
+  }
+  
+   .your-BEAT-your {
+    position: absolute;
+    width: 400px;
+    top: 186px;
+    left: 53px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: transparent;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 75.9px;
+  }
+  
+   .text-box-24 {
+    color: #ffffff;
+  }
+  
+   .text-box-25 {
+    color: #ff63e59e;
+  }
+  
+   .text-box-26 {
+    color: #a33e99;
+  }
+  
+   .frame-wrapper {
+    position: absolute;
+    width: 633px;
+    height: 31px;
+    top: 86px;
+    left: 702px;
+  }
+  
+   .frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 54px;
+    position: relative;
+  }
+  
+   .text-box-27 {
+    position: relative;
+    width: 173px;
+    height: 31px;
+    margin-top: -1px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    line-height: 27.1px;
+    font-family: "Ubuntu", Helvetica;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+  
+   .text-box-28 {
+    position: relative;
+    width: 99px;
+    height: 31px;
+    margin-top: -1px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    line-height: 27.1px;
+    white-space: nowrap;
+  }
+  
+   .text-box-29 {
+    position: relative;
+    width: 84px;
+    height: 31px;
+    margin-top: -1px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    line-height: 27.1px;
+    white-space: nowrap;
+  }
+  
+   .text-box-30 {
+    position: relative;
+    width: 115px;
+    height: 31px;
+    margin-top: -1px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    line-height: 27.1px;
+    white-space: nowrap;
+  }
+  
+   .line-9 {
+    position: absolute;
+    width: 1440px;
+    height: 2px;
+    top: 484px;
+    left: 0;
+  }
+  
+   .all-models-smiley {
+    position: absolute;
+    width: 148px;
+    top: 127px;
+    left: 709px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.72px;
+    line-height: 24.4px;
+  }
+  
+   .glowbuds-vs-gmail {
+    position: absolute;
+    width: 197px;
+    top: 120px;
+    left: 872px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.64px;
+    line-height: 21.7px;
+  }
+   .feedback-form {
+    position: relative;
+    top: 130px;
+  }
+   .feedback-form input,   .feedback-form textarea{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    width: 80%;
+    color: white;
+  }
+   .feedback-form button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 22px;
+    padding: 15px;
+    margin-top: 25px;
+
+  }
+   .overlay-17 {
+    position: absolute;
+    width: 131px;
+    height: 25px;
+    top: 125px;
+    left: 1214px;
+  }
+  
+   .instagram {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+  }
+  
+   .text-box-31 {
+    position: absolute;
+    width: 111px;
+    top: 0;
+    left: 20px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.72px;
+    line-height: 24.4px;
+    white-space: nowrap;
+  }
+  
+   .text-box-32 {
+    position: absolute;
+    width: 138px;
+    top: 491px;
+    left: 56px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.72px;
+    line-height: 24.4px;
+    white-space: nowrap;
+  }
+  
+   .overlay-group-8 {
+    position: absolute;
+    width: 142px;
+    height: 40px;
+    top: 524px;
+    left: 62px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+  
+   .text-box-33 {
+    position: absolute;
+    width: 135px;
+    top: 8px;
+    left: 2px;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: -0.6px;
+    line-height: 20.3px;
+    white-space: nowrap;
+  }
+  
+   .arrow {
+    position: fixed;
+    width: 85px;
+    height: 85px;
+    top: 80%;
+    left: 1301px;
+    border-radius: 42.5px;
+    border: 4px solid;
+    border-color: #ffffff;
+   
+  }
+  
+   .arrow-2 {
+    position: absolute;
+    width: 37px;
+    height: 42px;
+    top: 16px;
+    left: 21px;
+  }
+  
+  .why-glowbuds {
+    background-color: #020202;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+
+
+
+  .why-glowbuds .div {
+    background-color: #020202;
+    overflow: hidden;
+    width: 1440px;
+    height: 5072px;
+    position: relative;
+  }
+  
+  .why-glowbuds .overlay {
+    position: absolute;
+    width: 1440px;
+    height: 1407px;
+    top: 0;
+    left: 0;
+  }
+  
+  .why-glowbuds .box {
+    position: absolute;
+    width: 1440px;
+    height: 958px;
+    top: 0;
+    left: 0;
+    background-color: #f7e2ff;
+  }
+  
+  .why-glowbuds .box-2 {
+    position: absolute;
+    width: 189px;
+    height: 78px;
+    top: 74px;
+    left: 1217px;
+    border-radius: 33px;
+    border: 3px solid;
+    border-color: #000000;
+  }
+  
+  .why-glowbuds .group {
+    position: absolute;
+    width: 270px;
+    height: 229px;
+    top: 21px;
+    left: 125px;
+  }
+  
+  .why-glowbuds .text-box {
+    position: absolute;
+    top: 99px;
+    left: 736px;
+    font-family: "Ubuntu-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .text-box-2 {
+    position: absolute;
+    top: 99px;
+    left: 1078px;
+    font-family: "Ubuntu-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .text-box-3 {
+    position: absolute;
+    top: 99px;
+    left: 1312px;
+    font-family: "Ubuntu-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .line {
+    position: absolute;
+    width: 126px;
+    height: 3px;
+    top: 130px;
+    left: 903px;
+  }
+  
+  .why-glowbuds .group-2 {
+    position: absolute;
+    width: 377px;
+    height: 183px;
+    top: 1101px;
+    left: 570px;
+  }
+  
+  .why-glowbuds .overlay-group {
+    position: absolute;
+    width: 246px;
+    height: 212px;
+    top: 0;
+    left: 62px;
+  }
+  
+  .why-glowbuds .cyrcleche {
+    position: absolute;
+    width: 183px;
+    height: 183px;
+    top: 0;
+    left: 31px;
+    border-radius: 91.5px;
+    border: 7px solid;
+    border-color: #f7e2ff;
+  }
+  
+  .why-glowbuds .img {
+    position: absolute;
+    width: 246px;
+    height: 211px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .why-glowbuds .box-3 {
+    position: absolute;
+    width: 36px;
+    height: 5px;
+    top: 95px;
+    left: 341px;
+    background-color: #f7e2ff;
+  }
+  
+  .why-glowbuds .box-4 {
+    position: absolute;
+    width: 36px;
+    height: 5px;
+    top: 95px;
+    left: 0;
+    background-color: #f7e2ff;
+  }
+  
+  .why-glowbuds .vector {
+    position: absolute;
+    width: 1440px;
+    height: 302px;
+    top: 950px;
+    left: 0;
+  }
+  
+  .why-glowbuds .text-box-4 {
+    position: absolute;
+    top: 100px;
+    left: 903px;
+    font-family: "Ubuntu-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .shopping-cart {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 95px;
+    left: 1248px;
+  }
+  
+  .why-glowbuds .lights-section-5 {
+    position: absolute;
+    width: 674px;
+    height: 892px;
+    top: 0;
+    left: 766px;
+  }
+  
+  .why-glowbuds .lights-section-5-left {
+    position: absolute;
+    width: 704px;
+    height: 1010px;
+    top: 397px;
+    left: -30px;
+  }
+  
+  .why-glowbuds .overlay-wrapper {
+    position: absolute;
+    width: 1387px;
+    height: 832px;
+    top: 205px;
+    left: 46px;
+  }
+  
+  .why-glowbuds .overlay-2 {
+    position: relative;
+    width: 1383px;
+    height: 832px;
+  }
+  
+  .why-glowbuds .overlay-group-wrapper {
+    position: absolute;
+    width: 1383px;
+    height: 832px;
+    top: 0;
+    left: 0;
+  }
+  
+  .why-glowbuds .overlay-group-sub {
+    position: relative;
+    width: 1381px;
+    height: 832px;
+  }
+  
+  .why-glowbuds .group-5 {
+    position: absolute;
+    width: 343px;
+    height: 332px;
+    top: 0;
+    left: 1038px;
+  }
+  
+  .why-glowbuds .group-6 {
+    position: absolute;
+    width: 351px;
+    height: 340px;
+    top: 492px;
+    left: 0;
+  }
+  
+  .why-glowbuds .box-5 {
+    position: absolute;
+    width: 1201px;
+    height: 585px;
+    top: 90px;
+    left: 112px;
+    background-color: #63537e0d;
+    border-radius: 37px;
+    backdrop-filter: blur(7.4px) brightness(100%);
+    -webkit-backdrop-filter: blur(7.4px) brightness(100%);
+  }
+  
+  .why-glowbuds .text-box-5 {
+    position: absolute;
+    width: 681px;
+    top: 204px;
+    left: 351px;
+    font-family: "Ubuntu-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 51px;
+    letter-spacing: 15.81px;
+    line-height: 43.7px;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .line-2 {
+    position: absolute;
+    width: 3px;
+    height: 303px;
+    top: 301px;
+    left: 502px;
+  }
+  
+  .why-glowbuds .line-3 {
+    position: absolute;
+    width: 3px;
+    height: 303px;
+    top: 301px;
+    left: 854px;
+  }
+  
+  .why-glowbuds .element-of-people-have {
+    position: absolute;
+    width: 270px;
+    top: 332px;
+    left: 211px;
+    font-family: "Ubuntu-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 41px;
+    text-align: center;
+    letter-spacing: 2.05px;
+    line-height: 55.6px;
+  }
+  
+  .why-glowbuds .span {
+    font-weight: 300;
+    color: #56129a;
+  }
+  
+  .why-glowbuds .text-box-6 {
+    font-weight: 300;
+    color: #000000;
+    font-size: 29px;
+    letter-spacing: 1.45px;
+    line-height: 39.3px;
+  }
+  
+  .why-glowbuds .text-box-7 {
+    font-family: "Ubuntu-Regular", Helvetica;
+    color: #56129a;
+    font-size: 29px;
+    letter-spacing: 1.45px;
+    line-height: 39.3px;
+  }
+  
+  .why-glowbuds .element-of-those-affected {
+    position: absolute;
+    width: 270px;
+    top: 332px;
+    left: 546px;
+    font-family: "Ubuntu-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 41px;
+    text-align: center;
+    letter-spacing: 2.05px;
+    line-height: 55.6px;
+  }
+  
+  .why-glowbuds .most-of-the-young {
+    position: absolute;
+    width: 270px;
+    top: 328px;
+    left: 890px;
+    font-family: "Ubuntu-Light", Helvetica;
+    font-weight: 300;
+    color: transparent;
+    font-size: 29px;
+    text-align: center;
+    letter-spacing: 1.45px;
+    line-height: 39.3px;
+  }
+  
+  .why-glowbuds .text-products-skull {
+    color: #000000;
+  }
+  
+  .why-glowbuds .text-box-9 {
+    color: #56129a;
+  }
+  
+  .why-glowbuds .group-7 {
+    position: absolute;
+    width: 1236px;
+    height: 467px;
+    top: 3261px;
+    left: 98px;
+  }
+  
+  .why-glowbuds .overlay-3 {
+    position: absolute;
+    width: 480px;
+    height: 456px;
+    top: 14px;
+    left: 0;
+  }
+  
+  .why-glowbuds .we-need-your {
+    position: absolute;
+    width: 435px;
+    top: 104px;
+    left: 0;
+    font-family: "Ubuntu-Light", Helvetica;
+    font-weight: 300;
+    color: #f7e2ff;
+    font-size: 67px;
+    letter-spacing: 0;
+    line-height: 124.4px;
+  }
+  
+  .why-glowbuds .vector-2 {
+    position: absolute;
+    width: 434px;
+    height: 456px;
+    top: 0;
+    left: 47px;
+  }
+  
+  .why-glowbuds .overlay-4 {
+    position: absolute;
+    width: 633px;
+    height: 435px;
+    top: 0;
+    left: 609px;
+  }
+  
+  .why-glowbuds .group-8 {
+    position: absolute;
+    width: 633px;
+    height: 415px;
+    top: 0;
+    left: 0;
+  }
+  
+  .why-glowbuds .overlay-5 {
+    position: absolute;
+    width: 625px;
+    height: 45px;
+    top: 0;
+    left: 0;
+  }
+  
+  .why-glowbuds .line-4 {
+    position: absolute;
+    width: 624px;
+    height: 3px;
+    top: 42px;
+    left: 1px;
+  }
+  
+  .why-glowbuds .text-box-10 {
+    position: absolute;
+    width: 140px;
+    top: 0;
+    left: 0;
+    font-family: "Ubuntu-Light", Helvetica;
+    font-weight: 300;
+    color: #f7e2ff;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: 42.7px;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .overlay-group-3 {
+    position: absolute;
+    width: 624px;
+    height: 45px;
+
+    top: 102px;
+    left: 1px;
+  }
+  
+  .why-glowbuds .line-5 {
+    position: absolute;
+    width: 624px;
+    height: 3px;
+    top: 42px;
+    left: 0;
+  }
+  
+  .why-glowbuds .line-6 {
+    position: absolute;
+    width: 624px;
+    height: 3px;
+    top: 319px;
+    left: 1px;
+  }
+  
+  .why-glowbuds .text-box-11 {
+    width: 227px;
+    top: 204px;
+    left: 0;
+    font-size: 23px;
+    line-height: 42.7px;
+    position: absolute;
+    font-family: "Ubuntu-Light", Helvetica;
+    font-weight: 300;
+    color: #f7e2ff;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .text-box-12 {
+    width: 308px;
+    top: 370px;
+    left: 193px;
+    font-size: 28px;
+    line-height: 52px;
+    position: absolute;
+    font-family: "Ubuntu-Light", Helvetica;
+    font-weight: 300;
+    color: #f7e2ff;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .box-6 {
+    position: absolute;
+    width: 624px;
+    height: 84px;
+    top: 351px;
+    left: 1px;
+    border-radius: 7px;
+    border: 4px solid;
+    border-color: #f7e2ff;
+  }
+  
+  .why-glowbuds .arrow-wrapper {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 3884px;
+    left: 1302px;
+    border-radius: 42.5px;
+    border: 4px solid;
+    border-color: #f7e2ff;
+  }
+  
+  .why-glowbuds .arrow {
+    position: absolute;
+    width: 37px;
+    height: 42px;
+    top: 16px;
+    left: 21px;
+  }
+  
+  .why-glowbuds .footer {
+    position: absolute;
+    width: 1452px;
+    height: 590px;
+    top: 4126px;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .why-glowbuds .overlay-6 {
+    position: relative;
+    width: 1440px;
+    height: 590px;
+    background-color: #0e001c;
+  }
+  
+  .why-glowbuds .overlay-7 {
+    position: absolute;
+    width: 453px;
+    height: 425px;
+    top: 36px;
+    left: 0;
+  }
+  
+  .why-glowbuds .group-9 {
+    position: absolute;
+    width: 231px;
+    height: 205px;
+    top: 0;
+    left: 0;
+  }
+  
+  .why-glowbuds .your-BEAT-your {
+    position: absolute;
+    width: 400px;
+    top: 186px;
+    left: 53px;
+    font-family: "Ubuntu-Light", Helvetica;
+    font-weight: 300;
+    color: transparent;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 75.9px;
+  }
+  
+  .why-glowbuds .text-box-13 {
+    color: #ffffff;
+  }
+  
+  .why-glowbuds .text-box-14 {
+    color: #ff63e59e;
+  }
+  
+  .why-glowbuds .nav-bar-text-1 {
+    color: #a33e99;
+  }
+  
+  .why-glowbuds .frame-wrapper {
+    position: absolute;
+    width: 633px;
+    height: 31px;
+    top: 86px;
+    left: 702px;
+  }
+  
+  .why-glowbuds .frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 54px;
+    position: relative;
+  }
+  
+  .why-glowbuds .nav-bar-text-2 {
+    position: relative;
+    width: 173px;
+    height: 31px;
+    margin-top: -1px;
+    font-family: "Ubuntu-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    line-height: 27.1px;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .nav-bar-text-3 {
+    position: relative;
+    width: 99px;
+    height: 31px;
+    margin-top: -1px;
+    font-family: "Ubuntu-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    line-height: 27.1px;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .nav-bar-text-4 {
+    position: relative;
+    width: 84px;
+    height: 31px;
+    margin-top: -1px;
+    font-family: "Ubuntu-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    line-height: 27.1px;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .text-box-button-our {
+    position: relative;
+    width: 115px;
+    height: 31px;
+    margin-top: -1px;
+    font-family: "Ubuntu-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    line-height: 27.1px;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .line-7 {
+    position: absolute;
+    width: 1440px;
+    height: 2px;
+    top: 484px;
+    left: 0;
+  }
+  
+  .why-glowbuds .all-models-smiley {
+    position: absolute;
+    width: 148px;
+    top: 127px;
+    left: 709px;
+    font-family: "Ubuntu-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.72px;
+    line-height: 24.4px;
+  }
+  
+  .why-glowbuds .glowbuds-vs-gmail {
+    position: absolute;
+    width: 197px;
+    top: 120px;
+    left: 872px;
+    font-family: "Ubuntu-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.64px;
+    line-height: 21.7px;
+  }
+  
+  .why-glowbuds .overlay-group-4 {
+    position: absolute;
+    width: 131px;
+    height: 25px;
+    top: 125px;
+    left: 1214px;
+  }
+  
+  .why-glowbuds .instagram {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+  }
+  
+  .why-glowbuds .text-box-20 {
+    position: absolute;
+    width: 111px;
+    top: 0;
+    left: 20px;
+    font-family: "Ubuntu-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.72px;
+    line-height: 24.4px;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .text-box-21 {
+    position: absolute;
+    width: 138px;
+    top: 491px;
+    left: 56px;
+    font-family: "Ubuntu-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.72px;
+    line-height: 24.4px;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .div-wrapper {
+    position: absolute;
+    width: 142px;
+    height: 40px;
+    top: 524px;
+    left: 62px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+  
+  .why-glowbuds .text-box-22 {
+    position: absolute;
+    width: 135px;
+    top: 8px;
+    left: 2px;
+    font-family: "Ubuntu-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: -0.6px;
+    line-height: 20.3px;
+    white-space: nowrap;
+  }
+  
+  .why-glowbuds .dj-party-cuate {
+    position: absolute;
+    width: 634px;
+    height: 396px;
+    top: 1525px;
+    left: 762px;
+  }
+  
