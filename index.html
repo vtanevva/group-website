@@ -14,13 +14,13 @@
       <img class="logo" src="https://c.animaapp.com/5Y1VjJco/img/group-9.png" />
       <div class="nav-bar">
         <div class="nav-bar-links">
-          <a href="products.html">
+          <a class="links-nav" href="products.html">
             <div class="nav-bar-text-1">PRODUCTS </div>
           </a>
-          <a href="glowbuds.html">
+          <a class="links-nav" href="glowbuds.html">
             <div class="nav-bar-text-2">LISTEN WISE</div>
           </a>
-          <a href="#Bottom">
+          <a class="links-nav" href="#Bottom">
             <div class="nav-bar-text-3">CONTACT</div>
           </a>
         </div>        
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="title">
-      <div class="button-1">
+      <div class="hello-button">
         <div class="our-products-button">OUR PRODUCTS</div>
       </div>
       <p class="span">
@@ -56,9 +56,9 @@
       <img class="our-products-title-dot" src="https://c.animaapp.com/5Y1VjJco/img/vector.svg" />
     </div>
     <div class="effects-products">
-      <img class="group-7" src="https://c.animaapp.com/5Y1VjJco/img/group-2@2x.png" />
-      <img class="group-8" src="https://c.animaapp.com/5Y1VjJco/img/group-21@2x.png" />
-      <div class="box-6"></div>
+      <img class="pink-effect" src="https://c.animaapp.com/5Y1VjJco/img/group-2@2x.png" />
+      <img class="purple-effect" src="https://c.animaapp.com/5Y1VjJco/img/group-21@2x.png" />
+      <div class="transparent-box"></div>
     </div>
 
     <div class="products-each">
@@ -147,7 +147,7 @@
       <img class="lights-section-5" src="https://c.animaapp.com/5Y1VjJco/img/group-59.png" />
       <img class="lights-section-5-left" src="https://c.animaapp.com/5Y1VjJco/img/group-60.png" />
       <div class="awarness">
-          <div class="overlay-group-3">
+          <div>
             <div class="purple-shape"></div>
             <div class="blue-shape"></div>
             <img class="ear-img" src="https://c.animaapp.com/5Y1VjJco/img/image-2.png" />
@@ -172,14 +172,14 @@
         <img class="colorful-circle" src="https://c.animaapp.com/5Y1VjJco/img/vector-1.svg" />
       </div>
     
-      <form class="feedback-form" action="/glowbuds/submit.php" id="myForm" method="post">
+      <form class="feedback-form" action="submit.php" id="myForm" method="post">
               <input type="text" id="name" name="name" placeholder="Your Name" required><br>
               <input type="email" id="email" name="email" placeholder="Your Email" required><br>
               <textarea id="message" name="message" rows="4" placeholder="Share your thoughts.." required></textarea><br>
           
               <button type="submit">Share your feedback</button>
       </form>
-            <div id="responseMessage"></div>
+            <!-- <div id="responseMessage"></div> -->
 
         </div>
 
@@ -223,6 +223,9 @@
 </div>
   </div>
  <script>
+
+  
+
   // Function to add a product to the cart
   function addToCart(productName, price) {
     // Create a new cart item element
