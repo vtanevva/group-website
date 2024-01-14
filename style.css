@@ -14,20 +14,34 @@
  
   
 
-   .group {
+   .why-purple {
     position: absolute;
     width: 711px;
     height: 727px;
-    top: 0;
-    left: 1284px;
+    top: -50vh;
+    left: 50%;
   }
-  
-   .img {
+  .why-purple-hearing {
+    position: absolute;
+    width: 711px;
+    height: 727px;
+    left: 60%;
+    top: 0vh;
+    transform: rotate(180deg);
+  }
+    .why-pink-hearing {
+      position: absolute;
+      width: 731px;
+      height: 1335px;
+      top: -30vh;
+      left: -40%;
+    }
+   .why-pink {
     position: absolute;
     width: 731px;
     height: 1335px;
     top: 141px;
-    left: 515px;
+    left: -10%;
   }
   
    .waves {
@@ -369,6 +383,9 @@
     top: 720vh;
   
   }
+  .form-why {
+    top: 420vh;
+  }
   .feedback-img {
     position: absolute;
     right: 164vh;
@@ -443,18 +460,43 @@
     top: 456px;
     left: 0;
   }
-  
+  .why-line-1,.why-line-2 {
+    position: absolute;
+    width: 0.4vh;
+    border-radius: 2vh;
+    height: 35vh;
+    background-color: #000000;
+    top: 23vh;
+    opacity: 0.7;
+  }
+  .why-line-1 {
+    left: 104vh;
+  }
+
+  .why-line-2 {
+    left: 53vh;
+  }
    .transparent-box {
     position: absolute;
     width: 1150px;
     height: 534px;
     top: 102px;
-    left: 116px;
-    background-color: #f5ecff12;
+    left: 130px;
     border-radius: 22px;
-    box-shadow: 14px 10px 20.7px #000000ab;
+    /* box-shadow: 14px 10px 20.7px rgb(206, 176, 176); */
     backdrop-filter: blur(12.5px) brightness(100%);
     -webkit-backdrop-filter: blur(12.5px) brightness(100%);
+  }
+  .box-pinkcolor {
+    position: absolute;
+    width: 1150px;
+    height: 534px;
+    top: 102px;
+    left: 130px;
+    border-radius: 22px;
+    background-color: #a33e99;
+    opacity: 0.15;
+    z-index: -1;
   }
   
   .products-each {
@@ -468,7 +510,66 @@
     left: 243px;
     object-fit: cover;
   }
-  
+  .why-text-group {
+    display: grid;
+  grid-template-columns: 300px 300px 300px;
+  position: relative;
+  top: 20vh;
+  left: 13%;
+  }
+  .why-text-group-1,.why-text-group-2,.why-text-group-3 {
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    color: black;
+line-height: 5vh;
+font-size: 4vh;
+letter-spacing: 0.3vh;
+font-family: "Ubuntu", Helvetica;
+position: relative;
+
+  }
+.why-logo-text {
+top: 185vh;}
+  .vector-1 {
+    background-image: url('photos/vector1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120%;
+    height: 100vh;
+    position: relative;
+    top: 140vh;
+    left: -20vh;
+    z-index: -100;
+  }
+  .why-text-group-1 {
+    right: 13vh;
+  }
+  .why-text-group-2 {
+    right: 2vh;
+  }
+  .why-text-group-3 {
+    left: 9vh;
+  }
+
+  .purple-letters {
+    color: purple;
+    font-weight: 550;
+  }
+  .big {
+    font-size: 6.5vh;
+
+  }
+
+.why-title {
+  position: relative;
+  left: 28%;
+  top: 12vh;
+  font-size: 6vh;
+  letter-spacing: 1vh;
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
    .products-smiley {
     position: absolute;
     width: 317px;
@@ -661,7 +762,7 @@
     font-weight: 400;
     color: #ffffff;
     font-size: 22px;
-    margin-right: 30px
+    margin-right:4vh;
   }
   .header {
     display: flex;
@@ -671,7 +772,7 @@
 
    .nav-bar .nav-bar-text-1:hover,   .nav-bar .nav-bar-text-2:hover,   .nav-bar .nav-bar-text-3:hover {
     border-bottom: 2px solid white;
-    padding-bottom: 5px;
+    padding-bottom: 1vh;
   }
   .cart-container {
     display: none;
@@ -681,7 +782,7 @@
     width: 300px;
     height: 100vh;
     background-color: white;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 0 5px blach(0, 0, 0, 0.1);
     padding: 20px;
     overflow-y: auto;
   }
@@ -939,6 +1040,9 @@ opacity:0.95;
    
     background-color: transparent;
   }
+  .footer-why {
+    top: 600vh;
+  }
   
    .overlay-15 {
     position: relative;
@@ -1117,6 +1221,9 @@ opacity:0.95;
     font-size: 22px;
     width: 80%;
     color: white;
+    font-family: "Ubuntu", Helvetica;
+
+    
   }
    .feedback-form button {
     background-color: transparent;
@@ -1125,6 +1232,7 @@ opacity:0.95;
     font-size: 22px;
     padding: 15px;
     margin-top: 25px;
+    font-family: "Ubuntu", Helvetica;
 
   }
    .overlay-17 {
@@ -1237,7 +1345,7 @@ opacity:0.95;
   }
   
   .why-glowbuds {
-    background-color: #020202;
+    background-color: #f7e2ff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1246,760 +1354,217 @@ opacity:0.95;
   
 
 
+  .listen-wise-section-1 {
+    background-color: #f7e2ff;
+width: 100%;
+height: 150vh;
+position: relative;
+bottom: 20%;
+z-index: -1;
+  }
+  .nav-bar-listen-wise {
+    color: black;
+    font-family: "Ubuntu", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    margin-right:4vh;
+  }
 
-  .why-glowbuds .div {
-    background-color: #020202;
-    overflow: hidden;
-    width: 1440px;
-    height: 5072px;
-    position: relative;
+  .nav-bar-listen-wise:hover {
+    border-bottom:2px solid black;
+    padding-bottom: 1vh;
   }
-  
-  .why-glowbuds .overlay {
-    position: absolute;
-    width: 1440px;
-    height: 1407px;
-    top: 0;
-    left: 0;
-  }
-  
-  .why-glowbuds .box {
-    position: absolute;
-    width: 1440px;
-    height: 958px;
-    top: 0;
-    left: 0;
-    background-color: #f7e2ff;
-  }
-  
-  .why-glowbuds .box-2 {
-    position: absolute;
-    width: 189px;
-    height: 78px;
-    top: 74px;
-    left: 1217px;
-    border-radius: 33px;
-    border: 3px solid;
-    border-color: #000000;
-  }
-  
-  .why-glowbuds .group {
-    position: absolute;
-    width: 270px;
-    height: 229px;
-    top: 21px;
-    left: 125px;
-  }
-  
-  .why-glowbuds .text-box {
-    position: absolute;
-    top: 99px;
-    left: 736px;
-    font-family: "Ubuntu-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 22px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .text-box-2 {
-    position: absolute;
-    top: 99px;
-    left: 1078px;
-    font-family: "Ubuntu-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 22px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .text-box-3 {
-    position: absolute;
-    top: 99px;
-    left: 1312px;
-    font-family: "Ubuntu-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 22px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .line {
-    position: absolute;
-    width: 126px;
-    height: 3px;
-    top: 130px;
-    left: 903px;
-  }
-  
-  .why-glowbuds .group-2 {
-    position: absolute;
-    width: 377px;
-    height: 183px;
-    top: 1101px;
-    left: 570px;
-  }
-  
-  .why-glowbuds .overlay-group {
-    position: absolute;
-    width: 246px;
-    height: 212px;
-    top: 0;
-    left: 62px;
-  }
-  
-  .why-glowbuds .cyrcleche {
-    position: absolute;
-    width: 183px;
-    height: 183px;
-    top: 0;
-    left: 31px;
-    border-radius: 91.5px;
-    border: 7px solid;
-    border-color: #f7e2ff;
-  }
-  
-  .why-glowbuds .img {
-    position: absolute;
-    width: 246px;
-    height: 211px;
-    top: 1px;
-    left: 0;
-  }
-  
-  .why-glowbuds .box-3 {
-    position: absolute;
-    width: 36px;
-    height: 5px;
-    top: 95px;
-    left: 341px;
-    background-color: #f7e2ff;
-  }
-  
-  .why-glowbuds .box-4 {
-    position: absolute;
-    width: 36px;
-    height: 5px;
-    top: 95px;
-    left: 0;
-    background-color: #f7e2ff;
-  }
-  
-  .why-glowbuds .vector {
-    position: absolute;
-    width: 1440px;
-    height: 302px;
-    top: 950px;
-    left: 0;
-  }
-  
-  .why-glowbuds .text-box-4 {
-    position: absolute;
-    top: 100px;
-    left: 903px;
-    font-family: "Ubuntu-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 22px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .shopping-cart {
-    position: absolute;
-    width: 36px;
-    height: 36px;
-    top: 95px;
-    left: 1248px;
-  }
-  
-  .why-glowbuds .lights-section-5 {
-    position: absolute;
-    width: 674px;
-    height: 892px;
-    top: 0;
-    left: 766px;
-  }
-  
-  .why-glowbuds .lights-section-5-left {
-    position: absolute;
-    width: 704px;
-    height: 1010px;
-    top: 397px;
-    left: -30px;
-  }
-  
-  .why-glowbuds .overlay-wrapper {
-    position: absolute;
-    width: 1387px;
-    height: 832px;
-    top: 205px;
-    left: 46px;
-  }
-  
-  .why-glowbuds .overlay-2 {
-    position: relative;
-    width: 1383px;
-    height: 832px;
-  }
-  
-  .why-glowbuds .overlay-group-wrapper {
-    position: absolute;
-    width: 1383px;
-    height: 832px;
-    top: 0;
-    left: 0;
-  }
-  
-  .why-glowbuds .overlay-group-sub {
-    position: relative;
-    width: 1381px;
-    height: 832px;
-  }
-  
-  .why-glowbuds .group-5 {
-    position: absolute;
-    width: 343px;
-    height: 332px;
-    top: 0;
-    left: 1038px;
-  }
-  
-  .why-glowbuds .group-6 {
-    position: absolute;
-    width: 351px;
-    height: 340px;
-    top: 492px;
-    left: 0;
-  }
-  
-  .why-glowbuds .box-5 {
-    position: absolute;
-    width: 1201px;
-    height: 585px;
-    top: 90px;
-    left: 112px;
-    background-color: #63537e0d;
-    border-radius: 37px;
-    backdrop-filter: blur(7.4px) brightness(100%);
-    -webkit-backdrop-filter: blur(7.4px) brightness(100%);
-  }
-  
-  .why-glowbuds .text-box-5 {
-    position: absolute;
-    width: 681px;
-    top: 204px;
-    left: 351px;
-    font-family: "Ubuntu-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 51px;
-    letter-spacing: 15.81px;
-    line-height: 43.7px;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .line-2 {
-    position: absolute;
-    width: 3px;
-    height: 303px;
-    top: 301px;
-    left: 502px;
-  }
-  
-  .why-glowbuds .line-3 {
-    position: absolute;
-    width: 3px;
-    height: 303px;
-    top: 301px;
-    left: 854px;
-  }
-  
-  .why-glowbuds .element-of-people-have {
-    position: absolute;
-    width: 270px;
-    top: 332px;
-    left: 211px;
-    font-family: "Ubuntu-Light", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 41px;
-    text-align: center;
-    letter-spacing: 2.05px;
-    line-height: 55.6px;
-  }
-  
-  .why-glowbuds .span {
-    font-weight: 300;
-    color: #56129a;
-  }
-  
-  .why-glowbuds .text-box-6 {
-    font-weight: 300;
-    color: #000000;
-    font-size: 29px;
-    letter-spacing: 1.45px;
-    line-height: 39.3px;
-  }
-  
-  .why-glowbuds .text-box-7 {
-    font-family: "Ubuntu-Regular", Helvetica;
-    color: #56129a;
-    font-size: 29px;
-    letter-spacing: 1.45px;
-    line-height: 39.3px;
-  }
-  
-  .why-glowbuds .element-of-those-affected {
-    position: absolute;
-    width: 270px;
-    top: 332px;
-    left: 546px;
-    font-family: "Ubuntu-Light", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 41px;
-    text-align: center;
-    letter-spacing: 2.05px;
-    line-height: 55.6px;
-  }
-  
-  .why-glowbuds .most-of-the-young {
-    position: absolute;
-    width: 270px;
-    top: 328px;
-    left: 890px;
-    font-family: "Ubuntu-Light", Helvetica;
-    font-weight: 300;
-    color: transparent;
-    font-size: 29px;
-    text-align: center;
-    letter-spacing: 1.45px;
-    line-height: 39.3px;
-  }
-  
-  .why-glowbuds .text-products-skull {
-    color: #000000;
-  }
-  
-  .why-glowbuds .text-box-9 {
-    color: #56129a;
-  }
-  
-  .why-glowbuds .group-7 {
-    position: absolute;
-    width: 1236px;
-    height: 467px;
-    top: 3261px;
-    left: 98px;
-  }
-  
-  .why-glowbuds .overlay-3 {
-    position: absolute;
-    width: 480px;
-    height: 456px;
-    top: 14px;
-    left: 0;
-  }
-  
-  .why-glowbuds .we-need-your {
-    position: absolute;
-    width: 435px;
-    top: 104px;
-    left: 0;
-    font-family: "Ubuntu-Light", Helvetica;
-    font-weight: 300;
-    color: #f7e2ff;
-    font-size: 67px;
-    letter-spacing: 0;
-    line-height: 124.4px;
-  }
-  
-  .why-glowbuds .vector-2 {
-    position: absolute;
-    width: 434px;
-    height: 456px;
-    top: 0;
-    left: 47px;
-  }
-  
-  .why-glowbuds .overlay-4 {
-    position: absolute;
-    width: 633px;
-    height: 435px;
-    top: 0;
-    left: 609px;
-  }
-  
-  .why-glowbuds .group-8 {
-    position: absolute;
-    width: 633px;
-    height: 415px;
-    top: 0;
-    left: 0;
-  }
-  
-  .why-glowbuds .overlay-5 {
-    position: absolute;
-    width: 625px;
-    height: 45px;
-    top: 0;
-    left: 0;
-  }
-  
-  .why-glowbuds .line-4 {
-    position: absolute;
-    width: 624px;
-    height: 3px;
-    top: 42px;
-    left: 1px;
-  }
-  
-  .why-glowbuds .text-box-10 {
-    position: absolute;
-    width: 140px;
-    top: 0;
-    left: 0;
-    font-family: "Ubuntu-Light", Helvetica;
-    font-weight: 300;
-    color: #f7e2ff;
-    font-size: 23px;
-    letter-spacing: 0;
-    line-height: 42.7px;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .overlay-group-3 {
-    position: absolute;
-    width: 624px;
-    height: 45px;
 
-    top: 102px;
-    left: 1px;
-  }
+.why {
+  position: relative;
+  top: 15%;
+  left: 4%;
+}
+.why-text-box-protect {
+  width: 200%;
+  margin-left: -12vh;
+}
+.circles {
+  display: grid;
+  grid-template-columns: 20vh 20vh 20vh;
+  grid-template-rows: 20vh 20vh;
+ position: relative;
+ left: 7vh;
+ gap: 25vh;
+}
+.circle-img-1,.circle-img-2,.circle-img-3,.circle-img-4,.circle-img-5 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15vh;
+  position: relative;
+  left: 1.5vh;
+  top: 1vh;
+  height: 15vh;
+  transition: transform ease-out 0.3;
+  z-index: 10;
+}
+.circle-img-1:hover {
+  transform: scale(1.2);
+
+}
+.circle-img-1:hover,.circle-img-2:hover,.circle-img-3:hover,.circle-img-4:hover,.circle-img-5:hover {
+  transform: scale(1.2);
+
+}
+.circle-img-1 {
+  top: 1.5vh;
+  background-image: url('photos/ear-removebg-preview.png');
+
+}
+.circle-img-2 {
+  top: 3vh;
+  left: 1.2vh;
+  background-image: url('photos/second-removebg-preview.png');
+}
+.circle-img-3 {
+  top: 2vh;
+  background-image: url('photos/third-removebg-preview.png');
+}
+.circle-img-4 {
+  top: 2vh;
+  background-image: url('photos/fourth-removebg-preview.png');
+}
+.circle-img-5 {
+  top: 3vh;
+  left: 0.5vh;
+  background-image: url('photos/fifth-removebg-preview.png');
+}
+.hearing-problems-title {
+  color: white  ;
+  font-size: 6vh;
+  position: relative;
+  left: 30vh;
+  bottom: 13vh;
+  font-family: "Ubuntu", Helvetica;
+
+
+}
+.hearing-problems-sub-title {
+  color: grey;
+  font-size: 4vh;
+  position: relative;
+  left: 25%;
+  top: 15vh;
+  font-style: italic;
+}
+
+.hearing-problems {
+   position: absolute;
+  top: 260vh;
+  left: 40vh;
+}
+.circles p {
+  color: white;
+  width: 30vh;
+  height: 5vh;
+  text-align: center;
+  position: relative;
+  top: 6.5vh;
+  left: -5vh;
+  font-family: "Ubuntu", Helvetica;
+
+}
+.last-circle,.feeling-circle {
   
-  .why-glowbuds .line-5 {
-    position: absolute;
-    width: 624px;
-    height: 3px;
-    top: 42px;
-    left: 0;
-  }
+}
+.circle-first {
+  position: relative;
+  right: 15vh;
+}
+.circle-third {
+  position: relative;
+  left: 15vh;
+}
+.circle {
+  border: 1vh solid #F8E2FF;
+  border-radius: 50%;
   
-  .why-glowbuds .line-6 {
-    position: absolute;
-    width: 624px;
-    height: 3px;
-    top: 319px;
-    left: 1px;
-  }
-  
-  .why-glowbuds .text-box-11 {
-    width: 227px;
-    top: 204px;
-    left: 0;
-    font-size: 23px;
-    line-height: 42.7px;
-    position: absolute;
-    font-family: "Ubuntu-Light", Helvetica;
-    font-weight: 300;
-    color: #f7e2ff;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .text-box-12 {
-    width: 308px;
-    top: 370px;
-    left: 193px;
-    font-size: 28px;
-    line-height: 52px;
-    position: absolute;
-    font-family: "Ubuntu-Light", Helvetica;
-    font-weight: 300;
-    color: #f7e2ff;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .box-6 {
-    position: absolute;
-    width: 624px;
-    height: 84px;
-    top: 351px;
-    left: 1px;
-    border-radius: 7px;
-    border: 4px solid;
-    border-color: #f7e2ff;
-  }
-  
-  .why-glowbuds .arrow-wrapper {
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    top: 3884px;
-    left: 1302px;
-    border-radius: 42.5px;
-    border: 4px solid;
-    border-color: #f7e2ff;
-  }
-  
-  .why-glowbuds .arrow {
-    position: absolute;
-    width: 37px;
-    height: 42px;
-    top: 16px;
-    left: 21px;
-  }
-  
-  .why-glowbuds .footer {
-    position: absolute;
-    width: 1452px;
-    height: 590px;
-    top: 4126px;
-    left: 0;
-    background-color: transparent;
-  }
-  
-  .why-glowbuds .overlay-6 {
-    position: relative;
-    width: 1440px;
-    height: 590px;
-    background-color: #0e001c;
-  }
-  
-  .why-glowbuds .overlay-7 {
-    position: absolute;
-    width: 453px;
-    height: 425px;
-    top: 36px;
-    left: 0;
-  }
-  
-  .why-glowbuds .group-9 {
-    position: absolute;
-    width: 231px;
-    height: 205px;
-    top: 0;
-    left: 0;
-  }
-  
-  .why-glowbuds .your-BEAT-your {
-    position: absolute;
-    width: 400px;
-    top: 186px;
-    left: 53px;
-    font-family: "Ubuntu-Light", Helvetica;
-    font-weight: 300;
-    color: transparent;
-    font-size: 56px;
-    letter-spacing: 0;
-    line-height: 75.9px;
-  }
-  
-  .why-glowbuds .text-box-13 {
-    color: #ffffff;
-  }
-  
-  .why-glowbuds .text-box-14 {
-    color: #ff63e59e;
-  }
-  
-  .why-glowbuds .nav-bar-text-1 {
-    color: #a33e99;
-  }
-  
-  .why-glowbuds .frame-wrapper {
-    position: absolute;
-    width: 633px;
-    height: 31px;
-    top: 86px;
-    left: 702px;
-  }
-  
-  .why-glowbuds .frame {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 54px;
-    position: relative;
-  }
-  
-  .why-glowbuds .nav-bar-text-2 {
-    position: relative;
-    width: 173px;
-    height: 31px;
-    margin-top: -1px;
-    font-family: "Ubuntu-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: -0.8px;
-    line-height: 27.1px;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .nav-bar-text-3 {
-    position: relative;
-    width: 99px;
-    height: 31px;
-    margin-top: -1px;
-    font-family: "Ubuntu-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: -0.8px;
-    line-height: 27.1px;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .nav-bar-text-4 {
-    position: relative;
-    width: 84px;
-    height: 31px;
-    margin-top: -1px;
-    font-family: "Ubuntu-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: -0.8px;
-    line-height: 27.1px;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .text-box-button-our {
-    position: relative;
-    width: 115px;
-    height: 31px;
-    margin-top: -1px;
-    font-family: "Ubuntu-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: -0.8px;
-    line-height: 27.1px;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .line-7 {
-    position: absolute;
-    width: 1440px;
-    height: 2px;
-    top: 484px;
-    left: 0;
-  }
-  
-  .why-glowbuds .all-models-smiley {
-    position: absolute;
-    width: 148px;
-    top: 127px;
-    left: 709px;
-    font-family: "Ubuntu-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.72px;
-    line-height: 24.4px;
-  }
-  
-  .why-glowbuds .glowbuds-vs-gmail {
-    position: absolute;
-    width: 197px;
-    top: 120px;
-    left: 872px;
-    font-family: "Ubuntu-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: -0.64px;
-    line-height: 21.7px;
-  }
-  
-  .why-glowbuds .overlay-group-4 {
-    position: absolute;
-    width: 131px;
-    height: 25px;
-    top: 125px;
-    left: 1214px;
-  }
-  
-  .why-glowbuds .instagram {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    top: 0;
-    left: 0;
-  }
-  
-  .why-glowbuds .text-box-20 {
-    position: absolute;
-    width: 111px;
-    top: 0;
-    left: 20px;
-    font-family: "Ubuntu-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.72px;
-    line-height: 24.4px;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .text-box-21 {
-    position: absolute;
-    width: 138px;
-    top: 491px;
-    left: 56px;
-    font-family: "Ubuntu-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.72px;
-    line-height: 24.4px;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .div-wrapper {
-    position: absolute;
-    width: 142px;
-    height: 40px;
-    top: 524px;
-    left: 62px;
-    border-radius: 4px;
-    border: 1px solid;
-    border-color: #ffffff;
-  }
-  
-  .why-glowbuds .text-box-22 {
-    position: absolute;
-    width: 135px;
-    top: 8px;
-    left: 2px;
-    font-family: "Ubuntu-Light", Helvetica;
-    font-weight: 300;
-    color: #ffffff;
-    font-size: 15px;
-    text-align: center;
-    letter-spacing: -0.6px;
-    line-height: 20.3px;
-    white-space: nowrap;
-  }
-  
-  .why-glowbuds .dj-party-cuate {
-    position: absolute;
-    width: 634px;
-    height: 396px;
-    top: 1525px;
-    left: 762px;
-  }
-  
+}
+
+.circle-last {
+  position: relative;
+  left: 20vh;
+
+}
+.main-cause-img {
+  width: 210%;
+  height: 45vh;
+  background-size: cover;
+  background-image: url('photos/people.png');
+}
+.main-cause {
+  position: absolute;
+  top: 370vh;
+
+
+}
+.main-cause-text {
+  position: relative;
+  left: 45vh;
+}
+.main-cause-text div,.main-cause-text p {
+  color: white;
+}
+.main-cause-text div {
+  font-size: 4vh;
+  margin-top: 8vh;
+  margin-bottom: 3vh;
+  font-family: "Ubuntu", Helvetica;
+
+}
+.purple-box-title {
+  background-color: rgb(59, 24, 96);
+  width: 35vh;
+  height: 5vh;
+  position: absolute;
+  left: -5vh;
+  top: 4vh;
+  z-index: -1;
+}
+.text-what {
+  font-size: 4vh;
+  position: relative;
+  left: 40vh;
+  color: white;
+  font-family: "Ubuntu", Helvetica;
+  letter-spacing: 0.5vh;
+}
+.text-prolonged {
+  color: #D36ABC;
+  font-family: "Ubuntu", Helvetica;
+  font-size: 4.2vh;
+  position: relative;
+  left: 75%;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+
+}
+.main-cause-text p  {
+  font-size: 3vh;
+  text-align: center;
+  font-family: "Ubuntu", Helvetica;
+  position: relative;
+  left: -8vh;
+  line-height: 3.5vh;
+
+}
+.main-cause-button {
+  color: white;
+  position: relative;
+  left: 39vh;
+  border: 2px solid white;
+  padding: 3vh;
+  padding-left: 3.5vh;
+  width: 28%;
+  border-radius: 5vh;
+  background-color: transparent;
+}
+.main-cause-button:hover {
+  color: black;
+  background-color: white;
+}
