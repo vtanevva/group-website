@@ -110,6 +110,34 @@
     letter-spacing: 0;
     line-height: 30px;
   }
+  .title-all-products {
+    font-family: "Ubuntu", Helvetica;
+    font-size: 4vh;
+    position: relative;
+    left: 25vh;
+    margin-top: 5vh;
+
+  }
+  
+  .title-all-products div {
+    width: 32vh;
+    height:4vh;
+    background-color: #C48DDD;
+    position: relative;
+    opacity: 0.68;
+    top: -2.5vh;
+    left: -2vh;
+    z-index: 0;
+    margin-bottom: 5vh;
+    
+  }
+  .title-all-products p {
+    position: relative;
+    z-index: 101;
+    font-weight: 500;
+
+  }
+
    .line-logo {
     position: relative;
     width: 36px;
@@ -514,6 +542,50 @@
     left: 243px;
     object-fit: cover;
   }
+  .bu {
+    background-image: url('photos/buds/bu1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    top: 5vh;
+  }
+  .bu2 {
+    background-image: url('photos/buds/bu2.png');
+
+  }
+  .bu3 {
+    background-image: url('photos/buds/bu3.png');
+
+  }
+  .bu4 {
+    background-image: url('photos/buds/bu4.png');
+
+  }
+  .bu5 {
+    background-image: url('photos/buds/bu5.png');
+
+  }
+  .bu6 {
+    background-image: url('photos/buds/bu6.png');
+
+  }
+  .bu7 {
+    background-image: url('photos/buds/bu7.png');
+
+  }
+  .white {
+    width: 40vh;
+    height: 55vh;
+    background-color: white;
+  }
+  .left {
+    left: 22.8vh;
+  }
+ 
+
   .why-text-group {
     display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -599,20 +671,22 @@ top: 185vh;}
 }
    .products-smiley {
     position: absolute;
-    width: 317px;
-    height: 438px;
+    width: 300px;
+    height: 408px;
     top: 114px;
     left: 77vh;
   }
-  
+ 
    .products-skull {
     position: absolute;
-    width: 319px;
-    height: 438px;
+    width: 300px;
+    height: 55vh;
     top: 114px;
     left: 120vh;
   }
-  
+  .right {
+    left: 140vh;
+  }
   .lines-1 {
     position: absolute;
     width: 61px;
@@ -712,29 +786,30 @@ top: 185vh;}
   }
   .add-to-products-1 {
     position: absolute;
-    top: 65vh;
-    left: 18.7%;
+    top: 50vh;
+    left: 12.4%;
 
   }
   .add-to-products-2 {
     position: absolute;
-    top: 65vh;
-    left: 40.8%;
+    top: 50vh;
+    left: 82vh;
 
   }
+ 
   .black {
     color: black;
   }
   .add-to-products-3{
     position: absolute;
-    top: 65vh;
-    left: 62.5%;
+    top: 50vh;
+    left: 142vh;
 
   }
    .add-to-cart-3 {
     position: absolute;
     top: 65vh;
-    left: 64.5%;
+    left: 62.5%;
   }
   
   
@@ -744,7 +819,13 @@ top: 185vh;}
     background-color: #e0e0e0;
     border-radius: 15px;
   }
-  
+  .pink-box-cart {
+    width: 41vh;
+    height: 33px;
+    background-color: #f7e2ff;
+    position: relative;
+    left: -2.2vh;
+  }
    .add-to-cart {
     position: absolute;
     width: 241px;
@@ -818,7 +899,7 @@ top: 185vh;}
 
 
    .nav-bar .nav-bar-text-1:hover,   .nav-bar .nav-bar-text-2:hover,   .nav-bar .nav-bar-text-3:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 0.4vh solid white;
     padding-bottom: 1vh;
   }
   .cart-container {
@@ -1094,6 +1175,9 @@ opacity:0.95;
   }
   .footer-why {
     top: 600vh;
+  }
+  .footer-products {
+    top: 550vh;
   }
   
    .overlay-15 {
@@ -1424,7 +1508,7 @@ z-index: -1;
   }
 
   .nav-bar-listen-wise:hover {
-    border-bottom:2px solid black;
+    border-bottom:0.4vh solid black;
     padding-bottom: 1vh;
   }
 
@@ -1633,7 +1717,34 @@ z-index: -1;
   background-size: cover;
   width: 120%;
   height: 40vh;position: absolute;
-top: 160vh;
+top: 140vh;
 left: -20vh;
   background-image: url('photos/vector1.png');
+}
+
+.smile {
+  position: absolute;
+  left: 80vh;
+}
+.left-title {
+  left: 27vh;
+  top: 61vh;
+}
+.left-line {
+  top:57vh;
+}
+
+.right-title {
+  left: 144vh;
+  top: 61vh;
+}
+.right-line {
+  top:57vh;
+}
+.center-title {
+  left: 84vh;
+  top: 61vh;
+}
+.center-line {
+  top:57vh;
 }

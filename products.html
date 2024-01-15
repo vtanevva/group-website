@@ -6,12 +6,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="cart-container" id="cartContainer">
+        <div class="total-price" id="totalPrice">Total: €0.00</div>
+        <button class="exit-button" onclick="toggleCart()">X</button  >    </div>
+    </div>
     <div class="header">
-        <img class="logo " src="https://c.animaapp.com/5Y1VjJco/img/group-9.png" />
+        <a href="index.html" style="margin-top: -1vh;margin-left: 5vh;"> <img class="logo " style="position: relative;left: 10vh;
+            top: 3vh;" src="https://c.animaapp.com/5Y1VjJco/img/group-9.png" /></a>
         <div class="nav-bar ">
           <div class="nav-bar-links">
             <a class="links-nav " href="products.html">
-              <div class=" nav-bar-listen-wise" style="border-bottom:0.3vh solid black;padding-bottom:1vh ;">PRODUCTS </div>
+              <div class=" nav-bar-listen-wise" style="border-bottom:0.4vh solid black;padding-bottom:1vh ;">PRODUCTS </div>
             </a>
             <a class="links-nav " href="glowbuds.html">
               <div class=" nav-bar-listen-wise">LISTEN WISE</div>
@@ -20,7 +25,10 @@
               <div class=" nav-bar-listen-wise">CONTACT</div>
             </a>
           </div>        
-            <a href="#Cart"> <div id="redCircleBanner" class="red-circle-banner">0</div></a>
+            <a href="#Cart">
+                
+                 <!-- <div id="redCircleBanner" class="red-circle-banner">0</div> -->
+                </a>
   
           <div id="Cart" class="cart" style="border: 3px solid black;" onclick="toggleCart()">
             <div class="nav-bar-text-4 nav-bar-listen-wise" style="border: none;">CART</div>
@@ -30,26 +38,30 @@
         </div>
       </div>
     <section class="page-products">
+        <div class="title-all-products">
+        <p>All GlowBuds</p>
+        <div></div>
+    </div>
         <div class="products-first">
         <div class="products-each">
-            <img class="products-heart" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-12@2x.png" />
-            <img class="products-smiley" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-13@2x.png" />
-            <img class="products-skull" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-14@2x.png" />
+            <div class="white products-heart left" ><div class="bu bu1"></div></div>
+            <div class="white products-smiley smile" ><div class="bu bu2"></div></div>
+            <div class="white products-skull right" ><div class="bu bu3"></div></div>
           </div>
           <div class="purple-lines">
-            <div class="lines-1">
+            <div class="lines-1 left-title left-line">
               <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-2.svg" />
               <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-2.svg" />
               <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-2.svg" />
               <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-2.svg" />
             </div>
-            <div class="lines-2">
+            <div class="lines-2 center-title center-line">
               <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-1.svg" />
               <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-1.svg" />
               <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-1.svg" />
               <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-1.svg" />
             </div>
-            <div class="lines-3">
+            <div class="lines-3 right-title right-line">
               <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13.svg" />
               <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14.svg" />
               <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15.svg" />
@@ -57,27 +69,27 @@
             </div>
           </div>
        
-          <div>
-            <div class="product-title-1 black">Heart GlowBuds</div>
-            <div class="product-title-2 black">Smiley Glowbuds</div>
-            <div class="product-title-3 black">Skull Glowbuds</div>
+          <div >
+            <div class="product-title-1 black left-title">Heart GlowBuds</div>
+            <div class="product-title-2 black center-title">Smiley Glowbuds</div>
+            <div class="product-title-3 black right-title">Skull Glowbuds</div>
           </div>
           <div>
             <div>
               <div class="product add-to-products-1">
-                <div class="white-box-cart"></div>
+                <div class="pink-box-cart"></div>
                 <div class="add-to-cart" onclick="addToCart('Heart Glowbuds', 19.99)">
                   ADD TO CART<span class="cash"> €19.99</span>
                 </div>
               </div>
               <div class="product add-to-products-2">
-                <div class="white-box-cart"></div>
+                <div class="pink-box-cart"></div>
                 <div class="add-to-cart" onclick="addToCart('Smiley Glowbuds ', 19.99)">
                   ADD TO CART<span class="cash"> €19.99</span>
                 </div>
               </div>
               <div class="product add-to-products-3">
-                <div class="white-box-cart"></div>
+                <div class="pink-box-cart"></div>
                 <div class="add-to-cart" onclick="addToCart('Skull Glowbuds', 19.99)">
                   ADD TO CART<span class="cash"> €19.99</span>
                 </div>
@@ -87,24 +99,24 @@
             </div>
            <div class="products-second">
             <div class="products-each">
-                <img class="products-heart" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-12@2x.png" />
-                <img class="products-smiley" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-13@2x.png" />
-                <img class="products-skull" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-14@2x.png" />
+                <div class="white products-heart left" ><div class="bu bu4"></div></div>
+                <div class="white products-smiley smile" ><div class="bu bu5"></div></div>
+                <div class="white products-skull right" ><div class="bu bu6"></div></div>
               </div>
               <div class="purple-lines">
-                <div class="lines-1">
-                  <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-2.svg" />
+                <div class="lines-1  left-title left-line">
+                  <img class="line-1 " src="https://c.animaapp.com/5Y1VjJco/img/line-13-2.svg" />
                   <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-2.svg" />
                   <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-2.svg" />
                   <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-2.svg" />
                 </div>
-                <div class="lines-2">
+                <div class="lines-2 center-title center-line">
                   <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-1.svg" />
                   <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-1.svg" />
                   <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-1.svg" />
                   <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-1.svg" />
                 </div>
-                <div class="lines-3">
+                <div class="lines-3 right-title right-line">
                   <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13.svg" />
                   <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14.svg" />
                   <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15.svg" />
@@ -112,26 +124,26 @@
                 </div>
               </div>
               <div>
-                <div class="product-title-1 black">Heart GlowBuds</div>
-                <div class="product-title-2 black">Smiley Glowbuds</div>
-                <div class="product-title-3 black">Skull Glowbuds</div>
+                <div class="product-title-1 black left-title ">Heart GlowBuds</div>
+                <div class="product-title-2 black center-title">Smiley Glowbuds</div>
+                <div class="product-title-3 black right-title">Skull Glowbuds</div>
               </div>
               <div>
                 <div>
                   <div class="product add-to-products-1">
-                    <div class="white-box-cart"></div>
+                    <div class="pink-box-cart"></div>
                     <div class="add-to-cart" onclick="addToCart('Heart Glowbuds', 19.99)">
                       ADD TO CART<span class="cash"> €19.99</span>
                     </div>
                   </div>
                   <div class="product add-to-products-2">
-                    <div class="white-box-cart"></div>
+                    <div class="pink-box-cart"></div>
                     <div class="add-to-cart" onclick="addToCart('Smiley Glowbuds ', 19.99)">
                       ADD TO CART<span class="cash"> €19.99</span>
                     </div>
                   </div>
                   <div class="product add-to-products-3">
-                    <div class="white-box-cart"></div>
+                    <div class="pink-box-cart"></div>
                     <div class="add-to-cart" onclick="addToCart('Skull Glowbuds', 19.99)">
                       ADD TO CART<span class="cash"> €19.99</span>
                     </div>
@@ -141,24 +153,24 @@
                 </div>
                 <div class="products-third">
                     <div class="products-each">
-                        <img class="products-heart" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-12@2x.png" />
-                        <img class="products-smiley" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-13@2x.png" />
-                        <img class="products-skull" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-14@2x.png" />
+                        <div class="white products-heart left" ><div class="bu bu7"></div></div>
+                        <div class="white products-smiley smile" ><div class="bu bu2"></div></div>
+                        <div class="white products-skull right" ><div class="bu bu3"></div></div>
                       </div>
                       <div class="purple-lines">
-                        <div class="lines-1">
+                        <div class="lines-1  left-title left-line">
                           <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-2.svg" />
                           <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-2.svg" />
                           <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-2.svg" />
                           <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-2.svg" />
                         </div>
-                        <div class="lines-2">
+                        <div class="lines-2 center-title center-line">
                           <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-1.svg" />
                           <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-1.svg" />
                           <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-1.svg" />
                           <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-1.svg" />
                         </div>
-                        <div class="lines-3">
+                        <div class="lines-3 right-title right-line">
                           <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13.svg" />
                           <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14.svg" />
                           <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15.svg" />
@@ -166,26 +178,26 @@
                         </div>
                       </div>
                       <div>
-                        <div class="product-title-1 black">Heart GlowBuds</div>
-                        <div class="product-title-2 black">Smiley Glowbuds</div>
-                        <div class="product-title-3 black">Skull Glowbuds</div>
+                        <div class="product-title-1 black left-title">Heart GlowBuds</div>
+                        <div class="product-title-2 black center-title">Smiley Glowbuds</div>
+                        <div class="product-title-3 black right-title">Skull Glowbuds</div>
                       </div>
                       <div>
                         <div>
                           <div class="product add-to-products-1">
-                            <div class="white-box-cart"></div>
+                            <div class="pink-box-cart"></div>
                             <div class="add-to-cart" onclick="addToCart('Heart Glowbuds', 19.99)">
                               ADD TO CART<span class="cash"> €19.99</span>
                             </div>
                           </div>
                           <div class="product add-to-products-2">
-                            <div class="white-box-cart"></div>
+                            <div class="pink-box-cart"></div>
                             <div class="add-to-cart" onclick="addToCart('Smiley Glowbuds ', 19.99)">
                               ADD TO CART<span class="cash"> €19.99</span>
                             </div>
                           </div>
                           <div class="product add-to-products-3">
-                            <div class="white-box-cart"></div>
+                            <div class="pink-box-cart"></div>
                             <div class="add-to-cart" onclick="addToCart('Skull Glowbuds', 19.99)">
                               ADD TO CART<span class="cash"> €19.99</span>
                             </div>
@@ -195,24 +207,24 @@
                         </div>
                         <div class="products-fourth">
                             <div class="products-each">
-                                <img class="products-heart" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-12@2x.png" />
-                                <img class="products-smiley" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-13@2x.png" />
-                                <img class="products-skull" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-14@2x.png" />
+                                <div class="white products-heart left" ><div class="bu bu1"></div></div>
+                                <div class="white products-smiley smile" ><div class="bu bu4"></div></div>
+                                <div class="white products-skull right" ><div class="bu bu5"></div></div>
                               </div>
                               <div class="purple-lines">
-                                <div class="lines-1">
+                                <div class="lines-1  left-title left-line">
                                   <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-2.svg" />
                                   <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-2.svg" />
                                   <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-2.svg" />
                                   <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-2.svg" />
                                 </div>
-                                <div class="lines-2">
+                                <div class="lines-2 center-title center-line">
                                   <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-1.svg" />
                                   <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-1.svg" />
                                   <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-1.svg" />
                                   <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-1.svg" />
                                 </div>
-                                <div class="lines-3">
+                                <div class="lines-3 right-title right-line">
                                   <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13.svg" />
                                   <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14.svg" />
                                   <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15.svg" />
@@ -220,50 +232,50 @@
                                 </div>
                               </div>
                               <div>
-                                <div class="product-title-1 black">Heart GlowBuds</div>
-                                <div class="product-title-2 black">Smiley Glowbuds</div>
-                                <div class="product-title-3 black">Skull Glowbuds</div>
+                                <div class="product-title-1 black left-title">Heart GlowBuds</div>
+                                <div class="product-title-2 black center-title">Smiley Glowbuds</div>
+                                <div class="product-title-3 black right-title">Skull Glowbuds</div>
                               </div>
                               <div>
                                 <div>
                                   <div class="product add-to-products-1">
-                                    <div class="white-box-cart"></div>
+                                    <div class="pink-box-cart"></div>
                                     <div class="add-to-cart" onclick="addToCart('Heart Glowbuds', 19.99)">
                                       ADD TO CART<span class="cash"> €19.99</span>
                                     </div>
                                   </div>
                                   <div class="product add-to-products-2">
-                                    <div class="white-box-cart"></div>
+                                    <div class="pink-box-cart"></div>
                                     <div class="add-to-cart" onclick="addToCart('Smiley Glowbuds ', 19.99)">
                                       ADD TO CART<span class="cash"> €19.99</span>
                                     </div>
                                   </div>
                                   <div class="product add-to-products-3">
-                                    <div class="white-box-cart"></div>
+                                    <div class="pink-box-cart"></div>
                                     <div class="add-to-cart" onclick="addToCart('Skull Glowbuds', 19.99)">
                                       ADD TO CART<span class="cash"> €19.99</span>
                                     </div>
                                   </div>
                                   <div class="products-fifth">
                                     <div class="products-each">
-                                        <img class="products-heart" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-12@2x.png" />
-                                        <img class="products-smiley" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-13@2x.png" />
-                                        <img class="products-skull" src="https://c.animaapp.com/5Y1VjJco/img/rectangle-14@2x.png" />
+                                        <div class="white products-heart left" ><div class="bu bu6"></div></div>
+                                        <div class="white products-smiley smile" ><div class="bu bu7"></div></div>
+                                        <div class="white products-skull right" ><div class="bu bu1"></div></div>
                                       </div>
                                       <div class="purple-lines">
-                                        <div class="lines-1">
+                                        <div class="lines-1  left-title left-line">
                                           <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-2.svg" />
                                           <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-2.svg" />
                                           <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-2.svg" />
                                           <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-2.svg" />
                                         </div>
-                                        <div class="lines-2">
+                                        <div class="lines-2 center-title center-line">
                                           <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13-1.svg" />
                                           <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14-1.svg" />
                                           <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15-1.svg" />
                                           <img class="line-4" src="https://c.animaapp.com/5Y1VjJco/img/line-16-1.svg" />
                                         </div>
-                                        <div class="lines-3">
+                                        <div class="lines-3 right-title right-line">
                                           <img class="line-1" src="https://c.animaapp.com/5Y1VjJco/img/line-13.svg" />
                                           <img class="line-2" src="https://c.animaapp.com/5Y1VjJco/img/line-14.svg" />
                                           <img class="line-3" src="https://c.animaapp.com/5Y1VjJco/img/line-15.svg" />
@@ -271,26 +283,26 @@
                                         </div>
                                       </div>
                                       <div>
-                                        <div class="product-title-1 black">Heart GlowBuds</div>
-                                        <div class="product-title-2 black">Smiley Glowbuds</div>
-                                        <div class="product-title-3 black">Skull Glowbuds</div>
+                                        <div class="product-title-1 black left-title">Heart GlowBuds</div>
+                                        <div class="product-title-2 black center-title">Smiley Glowbuds</div>
+                                        <div class="product-title-3 black right-title">Skull Glowbuds</div>
                                       </div>
                                       <div>
                                         <div>
                                           <div class="product add-to-products-1">
-                                            <div class="white-box-cart"></div>
+                                            <div class="pink-box-cart"></div>
                                             <div class="add-to-cart" onclick="addToCart('Heart Glowbuds', 19.99)">
                                               ADD TO CART<span class="cash"> €19.99</span>
                                             </div>
                                           </div>
                                           <div class="product add-to-products-2">
-                                            <div class="white-box-cart"></div>
+                                            <div class="pink-box-cart"></div>
                                             <div class="add-to-cart" onclick="addToCart('Smiley Glowbuds ', 19.99)">
                                               ADD TO CART<span class="cash"> €19.99</span>
                                             </div>
                                           </div>
                                           <div class="product add-to-products-3">
-                                            <div class="white-box-cart"></div>
+                                            <div class="pink-box-cart"></div>
                                             <div class="add-to-cart" onclick="addToCart('Skull Glowbuds', 19.99)">
                                               ADD TO CART<span class="cash"> €19.99</span>
                                             </div>
@@ -322,9 +334,9 @@
           </div>
         
           <form class="feedback-form" action="" method="post">
-                  <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+                  <input  type="text" id="name" name="name" placeholder="Your Name" required><br>
                   <input type="email" id="email" name="email" placeholder="Your Email" required><br>
-                  <textarea id="message" name="message" rows="4" placeholder="Share your thoughts.." required></textarea><br>
+                  <textarea style="font-family: 'Ubuntu',' Helvetica;'" id="message" name="message" rows="4" placeholder="Share your thoughts.." required></textarea><br>
               
                   <button type="submit">Share your feedback</button>
           </form>
@@ -335,5 +347,41 @@
           </div>
         </div>
       </section>
+      <footer class="footer footer-products">
+        <div class="overlay-15">
+    
+          <div class="overlay-16">
+            <img class="group-20" src="https://c.animaapp.com/5Y1VjJco/img/group-41.png" />
+            <p class="your-BEAT-your">
+              <span class="text-box-24">Your </span>
+              <span class="text-box-25">BEAT<br /></span>
+              <span class="text-box-24">Your </span>
+              <span class="text-box-26">VOLUME</span>
+              <span class="text-box-24"> Your </span>
+              <span class="text-box-26">RULES</span>
+            </p>
+          </div>
+          <div id="Bottom" class="frame-wrapper">
+            <div class="frame">
+              <div class="text-box-27">OUR GLOWBUDS</div>
+              <div  class="text-box-28">CONTACT</div>
+              <div class="text-box-29">WHY US?</div>
+              <div class="text-box-30">FOLLOW US</div>
+            </div>
+          </div>
+          <img class="line-9" src="https://c.animaapp.com/5Y1VjJco/img/line-22.svg" />
+          <p class="all-models-smiley">All models<br /><br />Smiley Buds<br />Heart Buds<br />Skull Buds</p>
+          <div class="glowbuds-vs-gmail">glowbuds_vs@gmail.com<br /><br />+31681742898</div>
+          <div class="overlay-17">
+            <img class="instagram" src="https://c.animaapp.com/5Y1VjJco/img/instagram@2x.png" />
+            <div class="text-box-31">glowbuds_vc</div>
+          </div>
+          <div class="text-box-32">Country / Region</div>
+          <div class="overlay-group-8"><div class="text-box-33">Netherlands (EUR €)</div></div>
+        </div>
+      </footer>
+      <a href="#Top" ><div class="arrow"><img class="arrow-2" src="https://c.animaapp.com/5Y1VjJco/img/arrow-1.svg" /></div></a>
+       <script src="script.js">
+</script>
   </body>
 </html>
