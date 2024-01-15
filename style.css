@@ -26,8 +26,34 @@
     width: 711px;
     height: 727px;
     left: 60%;
-    top: 0vh;
+    top: 30vh;
     transform: rotate(180deg);
+    opacity: 0.6;
+  }
+  .purple {
+    color: #CE12AF;
+  }
+  .why-pink-box {
+    width: 30vh;
+    height: 7vh;
+    border-radius: 5vh;
+    background-color: #3B9FFF;
+    opacity: 0.5;
+    position: relative;
+    left: -10vh;
+    top: -4vh;
+    z-index: -1;
+  }
+  .why-purple-box {
+    width: 30vh;
+    height: 7vh;
+    border-radius: 5vh;
+    background-color: #CE12AF;
+    opacity: 0.5;
+    position: relative;
+    left: 70vh;
+    top: -18vh;
+    z-index: -1;
   }
     .why-pink-hearing {
       position: absolute;
@@ -35,6 +61,7 @@
       height: 1335px;
       top: -30vh;
       left: -40%;
+      opacity: 0.6;
     }
    .why-pink {
     position: absolute;
@@ -580,6 +607,8 @@
     width: 40vh;
     height: 55vh;
     background-color: white;
+    box-shadow: 0 3px 10px rgba(186, 184, 184, 0.5);
+
   }
   .left {
     left: 22.8vh;
@@ -692,7 +721,7 @@ top: 185vh;}
     width: 61px;
     height: 21px;
     top: 528px;
-    left: 264px;
+    left: 284px;
   }
   
    .line-1 {
@@ -732,7 +761,7 @@ top: 185vh;}
     width: 61px;
     height: 21px;
     top: 528px;
-    left: 579px;
+    left: 599px;
   }
   
    .lines-3 {
@@ -740,14 +769,16 @@ top: 185vh;}
     width: 61px;
     height: 21px;
     top: 528px;
-    left: 886px;
+    left: 124vh;
   }
-  
+  .lights {
+    left: 0;
+  }
    .product-title-1 {
     position: absolute;
     width: 233px;
     top: 559px;
-    left: 261px;
+    left: 281px;
     font-family: "Ubuntu", Helvetica;
     font-weight: 400;
     font-style: italic;
@@ -761,7 +792,7 @@ top: 185vh;}
     position: absolute;
     width: 233px;
     top: 559px;
-    left: 576px;
+    left: 596px;
     font-family: "Ubuntu", Helvetica;
     font-weight: 400;
     font-style: italic;
@@ -775,7 +806,7 @@ top: 185vh;}
     position: absolute;
     width: 233px;
     top: 559px;
-    left: 888px;
+    left: 124vh;
     font-family: "Ubuntu", Helvetica;
     font-weight: 400;
     font-style: italic;
@@ -786,14 +817,14 @@ top: 185vh;}
   }
   .add-to-products-1 {
     position: absolute;
-    top: 50vh;
+    top: 52vh;
     left: 12.4%;
 
   }
   .add-to-products-2 {
     position: absolute;
-    top: 50vh;
-    left: 82vh;
+    top: 52vh;
+    left: 84vh;
 
   }
  
@@ -802,14 +833,14 @@ top: 185vh;}
   }
   .add-to-products-3{
     position: absolute;
-    top: 50vh;
+    top: 52vh;
     left: 142vh;
 
   }
    .add-to-cart-3 {
     position: absolute;
     top: 65vh;
-    left: 62.5%;
+    left: 66.5%;
   }
   
   
@@ -996,7 +1027,7 @@ opacity:0.95;
   .specifications-img {
     width: 400px;
     position: absolute;
-    top: 100vh;
+    top: 115vh;
     left: 73vh;
     transition: transform 0.5s ease-in-out;
   }
@@ -1152,13 +1183,23 @@ opacity:0.95;
     line-height: 65.1px;
   }
   
-  
-  
+  .img-left {
+    position: relative;
+    left: 7vh;
+  }
+  .img-center {
+    position: relative;
+    left: -8vh;
+  }
+  .img-right {
+    position: relative;
+    left: -22vh;
+  }
   
    .specifics-title {
     position: absolute;
     top: 20px;
-    left: 60vh;
+    left: 58vh;
     font-family: "Ubuntu", Helvetica;
     font-weight: 400;
     color: #ebebeb;
@@ -1724,7 +1765,7 @@ left: -20vh;
 
 .smile {
   position: absolute;
-  left: 80vh;
+  left: 82vh;
 }
 .left-title {
   left: 27vh;
@@ -1742,7 +1783,7 @@ left: -20vh;
   top:57vh;
 }
 .center-title {
-  left: 84vh;
+  left: 86vh;
   top: 61vh;
 }
 .center-line {
