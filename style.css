@@ -11,9 +11,6 @@
     scroll-behavior: smooth;
   }
   
- 
-  
-
    .why-purple {
     position: absolute;
     width: 711px;
@@ -30,75 +27,13 @@
     transform: rotate(180deg);
     opacity: 0.6;
   }
+  /* purple text color  */
   .purple {
     color: #CE12AF;
   }
-  .why-pink-box {
-    width: 30vh;
-    height: 7vh;
-    border-radius: 5vh;
-    background-color: #3B9FFF;
-    opacity: 0.5;
-    position: relative;
-    left: -10vh;
-    top: -4vh;
-    z-index: -1;
-  }
-  .why-purple-box {
-    width: 30vh;
-    height: 7vh;
-    border-radius: 5vh;
-    background-color: #CE12AF;
-    opacity: 0.5;
-    position: relative;
-    left: 70vh;
-    top: -18vh;
-    z-index: -1;
-  }
-    .why-pink-hearing {
-      position: absolute;
-      width: 731px;
-      height: 1335px;
-      top: -30vh;
-      left: -40%;
-      opacity: 0.6;
-    }
-   .why-pink {
-    position: absolute;
-    width: 731px;
-    height: 1335px;
-    top: 141px;
-    left: -10%;
-  }
-  
-   .waves {
-    position: absolute;
-    width: 100%;
-    height: 600px;
-    top: 30vh;
-    background-image: url('photos/83nea54g.png');
-  }
-  
-   .logo-text {
-    position: absolute;
-    width: 458px;
-    height: 239px;
-    top: 160vh;
-    left: 36%;
-  }
-  
  
-  
-   .cyrcleche {
-    position: absolute;
-    width: 183px;
-    height: 183px;
-    top: 0;
-    left: 136px;
-    border-radius: 91.5px;
-    border: 7px solid;
-    border-color: #ffffff;
-  }
+
+  /* logo  */
   .logo {
     position: relative;
     left: 5.5%;
@@ -125,6 +60,25 @@
       transform: rotate(360deg); /* Adjust the degree of rotation as needed */
     }
   }
+
+
+  .line-logo {
+    position: relative;
+    width: 36px;
+    height: 5px;
+    top: 95px;
+    left: 384px;
+    background-color: #ffffff;
+  }
+    .line-logo-left {
+    position: absolute;
+    width: 36px;
+    height: 5px;
+    top: 95px;
+    left: 43px;
+    background-color: #ffffff;
+  }
+
    .text-box {
     position: absolute;
     width: 456px;
@@ -165,32 +119,74 @@
 
   }
 
-   .line-logo {
+
+  
+  .why-pink-box {
+    width: 30vh;
+    height: 7vh;
+    border-radius: 5vh;
+    background-color: #3B9FFF;
+    opacity: 0.5;
     position: relative;
-    width: 36px;
-    height: 5px;
-    top: 95px;
-    left: 384px;
-    background-color: #ffffff;
+    left: -10vh;
+    top: -4vh;
+    z-index: -1;
   }
-    .line-logo-left {
+  .why-purple-box {
+    width: 30vh;
+    height: 7vh;
+    border-radius: 5vh;
+    background-color: #CE12AF;
+    opacity: 0.5;
+    position: relative;
+    left: 70vh;
+    top: -18vh;
+    z-index: -1;
+  }
+    .why-pink-hearing {
+      position: absolute;
+      width: 731px;
+      height: 1335px;
+      top: -30vh;
+      left: -40%;
+      opacity: 0.6;
+    }
+   .why-pink {
     position: absolute;
-    width: 36px;
-    height: 5px;
-    top: 95px;
-    left: 43px;
-    background-color: #ffffff;
+    width: 731px;
+    height: 1335px;
+    top: 141px;
+    left: -10%;
   }
-  
-   .overlay-wrapper {
+  /* homepage  */
+   .waves {
     position: absolute;
-    width: 2626px;
-    height: 1244px;
-    top: 4115px;
-    left: 0;
+    width: 100%;
+    height: 600px;
+    top: 30vh;
+    background-image: url('photos/83nea54g.png');
   }
   
+   .logo-text {
+    position: absolute;
+    width: 458px;
+    height: 239px;
+    top: 160vh;
+    left: 36%;
+  }
   
+ 
+  
+   .cyrcleche {
+    position: absolute;
+    width: 183px;
+    height: 183px;
+    top: 0;
+    left: 136px;
+    border-radius: 91.5px;
+    border: 7px solid;
+    border-color: #ffffff;
+  }
   
    .lights-section-5 {
     position: absolute;
@@ -324,7 +320,7 @@
     line-height: 24px;
     white-space: nowrap;
   }
-  
+  /* specifics section  */
   .specifics-info {
     position: absolute;
     top: -55vh;
@@ -358,7 +354,7 @@
   }
   
    
-  
+  /* effects  */
    .specifics-effects {
     position: relative;
     top: -102px;
@@ -569,6 +565,7 @@
     left: 243px;
     object-fit: cover;
   }
+  /* each product img */
   .bu {
     background-image: url('photos/buds/bu1.png');
     background-repeat: no-repeat;
@@ -634,6 +631,7 @@ font-family: "Ubuntu", Helvetica;
 position: relative;
 
   }
+  /* products each  */
   .products-first {
     position: relative;
     top: -15vh;
@@ -698,6 +696,7 @@ top: 185vh;}
   font-family: "Ubuntu";
   font-weight: 400;
 }
+/* products titles  */
    .products-smiley {
     position: absolute;
     width: 300px;
@@ -837,6 +836,7 @@ top: 185vh;}
     left: 142vh;
 
   }
+   /* cart  */
    .add-to-cart-3 {
     position: absolute;
     top: 65vh;
@@ -904,6 +904,7 @@ top: 185vh;}
     top: 65vh;
     left: 20%;
   }
+  /* .nav-bar and header   */
   .nav-bar {
     display: flex;
     flex-direction: row;
@@ -933,6 +934,8 @@ top: 185vh;}
     border-bottom: 0.4vh solid white;
     padding-bottom: 1vh;
   }
+
+  /* cart  */
   .cart-container {
     display: none;
     position: fixed;
@@ -985,7 +988,7 @@ opacity:0.95;
   
   .product-name,
   .product-price {
-    margin-right: 10px; /* Adjust the margin as needed */
+    margin-right: 10px; 
   }
   
   .delete-button {
@@ -1076,7 +1079,7 @@ opacity:0.95;
     line-height: normal;
     white-space: nowrap;
   }
-  
+  /* shopping cart  */
    .shopping-cart {
     position: absolute;
     width: 35px;
@@ -1085,7 +1088,7 @@ opacity:0.95;
     left: 30px;
   }
   .shopping-cart-black {
-    background-image: url(photos/cart-removebg-preview.png);
+    background-image: url('photos/cart-removebg-preview.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1146,19 +1149,6 @@ opacity:0.95;
     z-index: 3;
   }
   
-
-  
-  
-   .ENJOY-TO-THE-MAX-wrapper {
-    position: absolute;
-    width: 406px;
-    height: 387px;
-    top: 0;
-    left: 0;
-  }
-  
-  
-  
    .span {
     color: #e017c0de;
     font-family: "Ubuntu", Helvetica;
@@ -1171,17 +1161,7 @@ opacity:0.95;
   .white-text {
     color: white;
   }
-   .text-box-21 {
-    color: #ffffff;
-    font-size: 76px;
-    line-height: 65.1px;
-  }
-  
-   .text-box-22 {
-    color: #e017c0;
-    font-size: 76px;
-    line-height: 65.1px;
-  }
+ 
   
   .img-left {
     position: relative;
@@ -1206,10 +1186,9 @@ opacity:0.95;
     font-size: 63px;
     white-space: nowrap;
   }
-  
+  /* footer  */
    .footer {
     position: absolute;
-   
     top: 825vh;
    
     background-color: transparent;
@@ -1221,70 +1200,54 @@ opacity:0.95;
     top: 550vh;
   }
   
-   .overlay-15 {
+   .space {
     position: relative;
     width: 1440px;
     height: 590px;
     background-color: #0e001c;
   }
   
-   .overlay-16 {
-    position: absolute;
-    width: 453px;
-    height: 425px;
-    top: 36px;
-    left: 0;
-  }
+ 
   
-   .group-20 {
-    position: absolute;
-    width: 231px;
-    height: 205px;
-    top: 0;
-    left: 0;
-  }
+
   
-   .your-BEAT-your {
+   .big-title-footer {
     position: absolute;
     width: 400px;
     top: 186px;
     left: 53px;
     font-family: "Ubuntu", Helvetica;
     font-weight: 300;
-    color: transparent;
+    color: white;
     font-size: 56px;
     letter-spacing: 0;
     line-height: 75.9px;
   }
   
-   .text-box-24 {
-    color: #ffffff;
-  }
+   
   
-   .text-box-25 {
+   .span-purple {
     color: #ff63e59e;
   }
   
-   .text-box-26 {
-    color: #a33e99;
-  }
+   
   
-   .frame-wrapper {
+   .nav-footer {
     position: absolute;
     width: 633px;
     height: 31px;
     top: 86px;
     left: 702px;
   }
-  
-   .frame {
+  /* footer  */
+   .nav-footer-container {
     display: inline-flex;
     align-items: flex-start;
     gap: 54px;
     position: relative;
   }
   
-   .text-box-27 {
+   .footer-title-1 {
     position: relative;
     width: 173px;
     height: 31px;
@@ -1298,7 +1261,7 @@ opacity:0.95;
     white-space: nowrap;
   }
   
-   .text-box-28 {
+   .footer-title-2 {
     position: relative;
     width: 99px;
     height: 31px;
@@ -1312,7 +1275,7 @@ opacity:0.95;
     white-space: nowrap;
   }
   
-   .text-box-29 {
+   .footer-title-3 {
     position: relative;
     width: 84px;
     height: 31px;
@@ -1326,7 +1289,7 @@ opacity:0.95;
     white-space: nowrap;
   }
   
-   .text-box-30 {
+   .footer-title-4 {
     position: relative;
     width: 115px;
     height: 31px;
@@ -1340,7 +1303,7 @@ opacity:0.95;
     white-space: nowrap;
   }
   
-   .line-9 {
+   .line-footer {
     position: absolute;
     width: 1440px;
     height: 2px;
@@ -1375,7 +1338,7 @@ opacity:0.95;
     letter-spacing: -0.64px;
     line-height: 21.7px;
   }
-
+/* form */
   .form {
     position: absolute;
     left: 100vh;
@@ -1413,7 +1376,7 @@ opacity:0.95;
     font-family: "Ubuntu", Helvetica;
 
   }
-   .overlay-17 {
+   .instagram-container {
     position: absolute;
     width: 131px;
     height: 25px;
@@ -1429,7 +1392,7 @@ opacity:0.95;
     left: 0;
   }
   
-   .text-box-31 {
+   .instagram-text {
     position: absolute;
     width: 111px;
     top: 0;
@@ -1444,7 +1407,7 @@ opacity:0.95;
     white-space: nowrap;
   }
   
-   .text-box-32 {
+   .country-footer {
     position: absolute;
     width: 138px;
     top: 491px;
@@ -1459,7 +1422,7 @@ opacity:0.95;
     white-space: nowrap;
   }
   
-   .overlay-group-8 {
+   .currency-footer-border {
     position: absolute;
     width: 142px;
     height: 40px;
@@ -1470,7 +1433,7 @@ opacity:0.95;
     border-color: #ffffff;
   }
   
-   .text-box-33 {
+   .currency-footer {
     position: absolute;
     width: 135px;
     top: 8px;
@@ -1513,7 +1476,7 @@ opacity:0.95;
     }
   }
   
-  
+  /* arrow to top  */
    .arrow-2 {
     position: absolute;
     width: 37px;
@@ -1521,7 +1484,7 @@ opacity:0.95;
     top: 16px;
     left: 21px;
   }
-  
+  /* listen wise page  */
   .why-glowbuds {
     background-color: #f7e2ff;
     display: flex;
@@ -1612,6 +1575,7 @@ z-index: -1;
   left: 0.5vh;
   background-image: url('photos/fifth-removebg-preview.png');
 }
+/* glowuds page  */
 .hearing-problems-title {
   color: white  ;
   font-size: 6vh;
