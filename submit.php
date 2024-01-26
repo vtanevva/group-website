@@ -1,18 +1,18 @@
 <?php
 
 // if ($_SERVER["REQUEST_METHOD"] == "POST") {
-// //     error_log('Received a POST request');
-// //     $name = $_POST["name"];
-// //     $email = $_POST["email"];
-// //     $message = $_POST["message"];
+//     error_log('Received a POST request');
+//     $name = $_POST["name"];
+//     $email = $_POST["email"];
+//     $message = $_POST["message"];
 
-// //     $to = "vanesa.taneva@gmail.com"; 
-// //     $subject = "New Form Submission";
-// //     $headers = "From: $email";
+//     $to = "vanesa.taneva@gmail.com"; 
+//     $subject = "New Form Submission";
+//     $headers = "From: $email";
 
-// //     mail($to, $subject, $message, $headers);
-// //     echo "Thank you for your submission!";
-// // }
+//     mail($to, $subject, $message, $headers);
+//     echo "Thank you for your submission!";
+// }
 // $name = $_POST["name"];
 // $email = $_POST["email"];
 // $message = $_POST["message"];
@@ -42,15 +42,15 @@
 
 // $mail->send();
 
-// echo "email sent";
+// echo "email sent"; -->
 
-// 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $email = $_POST["email"];
     $message = $_POST["message"];
 
-    $to = "your@email.com"; // Replace with your email address
+    $to = "ivanova.deq06@gmail.com"; // Replace with your email address
     $subject = "Feedback from $name";
     $headers = "From: $email";
 
@@ -66,6 +66,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Handle invalid request method
     echo "Invalid request method.";
 }
-?>
+
 
 ?>
