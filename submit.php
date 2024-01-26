@@ -24,7 +24,7 @@
 
 // $mail = new PHPMailer(true);
 
-// $mail->isSMTP();
+// $mail->isSMTPhh();
 // $mail->SMTPAuth = true;
 
 // $mail->Host = "smtp.example.com";
